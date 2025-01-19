@@ -18,6 +18,8 @@ body {
   background-color: #1b3726;
   color: #333;
   font-family: "Comfortaa", "Inter", "Roboto Flex", Arial, sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
@@ -271,16 +273,16 @@ section ul li {
     font-size: 2rem;
   }
 
-  section {
-    padding: 0.5rem;
-  }
-
   section h2 {
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
+
+  section {
+    padding: 0.5rem;
+  }
 
   header h1 {
     font-size: 2rem;
@@ -295,6 +297,14 @@ section ul li {
 
 @media screen {
   @media (orientation: portrait) {
+
+    /* body {
+      background-size: 500px auto;
+    } */
+
+    /* section {
+      padding: 0.5rem;
+    } */
 
     h3, h4 {
       font-size: 100%;
