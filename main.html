@@ -724,24 +724,18 @@ const backgrounds = [
   'leaves03.jpg'
 ]
 
-const randomIndex0 = Math.floor(Math.random() * backgrounds.length);
-const randomBackground0 = backgrounds[randomIndex0]
+function backgroundImage() {
+  let randomIndex = Math.floor(Math.random() * backgrounds.length);
+  // randomIndex = backgrounds.length-1;
+  let randomBackground = backgrounds[randomIndex];
+  document.body.style.backgroundImage = `url('backgrounds/${randomBackground}')`;
+  // document.body.style.backgroundAttachment = "fixed";
+  // document.body.style.backgroundSize = "cover";
+  document.body.style.transition = "background-image 1s ease";
+}
 
-document.body.style.backgroundAttachment = "fixed";
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundImage = `url('backgrounds/${randomBackground0}')`;
+backgroundImage();
 
-setInterval(
-  () => {
-    let randomIndex = Math.floor(Math.random() * backgrounds.length);
-    let randomBackground = backgrounds[randomIndex]
-    document.body.style.backgroundImage = `url('backgrounds/${randomBackground}')`;
-    document.body.style.transition = "background-image 1s ease";
-
-    // document.body.style.backgroundImage = `url('backgrounds/${backgrounds.slice(-1)}')`;
-
-  }, 60000
-);
-
+setInterval(backgroundImage, 4000);
 </script>
 </html>
