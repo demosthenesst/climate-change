@@ -669,7 +669,8 @@ const details = document.querySelectorAll('details');
 
 function goToContent(el) {
   let ind = contentArray.indexOf(el);
-  let target = details[ind]
+  let target = details[ind];
+  target.open = true;
   target.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
