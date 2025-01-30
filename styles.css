@@ -145,16 +145,15 @@ section details[open] summary {
   border-bottom: 2px solid var(--fontgreen);
   border-top: 2px solid var(--fontgreen);
   margin-bottom: 1rem;
-}
-
-#contents div {
-  padding: 2rem;
+  padding: 1rem;
   font-size: 90%;
+
+
 }
 
 #contents ul {
-  /* list-style-type: none; */
-  list-style-type: "";
+  list-style-type: none;
+  /* list-style-type: ""; */
   padding-inline: 0;
   margin-inline: 0;
 }
@@ -200,7 +199,7 @@ section ul li {
 
 #sources ul {
   list-style-type: none;
-  padding-inline: 1rem;
+  padding-inline: 0rem;
   margin:0;
 }
 #sources h3 {
@@ -298,14 +297,6 @@ section ul li {
 @media screen {
   @media (orientation: portrait) {
 
-    /* body {
-      background-size: 500px auto;
-    } */
-
-    /* section {
-      padding: 0.5rem;
-    } */
-
     h3, h4 {
       font-size: 100%;
     }
@@ -324,6 +315,7 @@ section ul li {
 
     .hamburger {
       align-self: flex-start;
+      font-size: 1rem;
     }
 
     #info div {
