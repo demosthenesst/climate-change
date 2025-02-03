@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Κλιματική Αλλαγή</title>
+
+  <link rel="icon" type="image/x-icon" href="icons/earth.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Mansalva&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=info" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/translation.css">
+
+
+</head>
+
+<body onresize="resizeFunction()">
+  <header id="#top">
+    <h1>
+      <span class="material displayed">
+        <span>Κλιματική Αλλαγή</span>
+        <span style="font-size: 70%;">Ερωτήσεις & Απαντήσεις</span>
+      </span>
+      
+      <span class="material">
+        <span>Climate Change</span>
+        <span style="font-size: 70%;">Questions & Answers</span>
+      </span>
+    </h1>
+
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+
+    <nav class="menu-container transparent" id="menuContainer">
+
+      <ul class="menu" id="menu">
+        <li id="first-group" class="menu-group">
+          <ul id="submenu-1" class="submenu">
+            
+            <li class="submenu"><a href="#top"><i class="fa-solid fa-house fa-lg"></i></a></li>
+            <li class="submenu"><a href="#contents"><i class="fa-solid fa-list fa-xl"></i></a></li>
+            <li class="submenu"><a onclick="openfullscreenSlideshow()"><i class="fa-solid fa-image fa-xl"></i></a></li>
+            <li class="submenu">
+              <a class="large-landscape" onclick="openfullscreenInfo()">
+                <i class="fa-solid fa-circle-info fa-xl"></i>
+              </a>
+              <a href="#info" class="small-landscape">
+                <i class="fa-solid fa-circle-info fa-xl"></i>
+              </a>
+            </li>
+            <li class="submenu"><button id="language-button" onclick="toggleLanguage()"></button></li>
+          </ul>
+        </li>
+        <li id="second-group" class="menu-group">
+          <ul id="submenu-2" class="submenu">
+            <li><a href="#foreword"><span class="material displayed">Πρόλογος</span>
+              <span class="material">Foreword</span></a>
+            </li>
+
+            <li><a href="#introduction"><span class="material displayed">Εισαγωγή</span>
+              <span class="material">Intro</span></a>
+            </li>
+            <li><a href="#causes"><span class="material displayed">Σήμερα</span>
+              <span class="material">Today</span></a></li>
+            <li><a href="#effects"><span class="material displayed">Επιπτώσεις</span>
+              <span class="material">Impacts</span></a></li>
+            <li><a href="#solutions"><span class="material displayed">Λύσεις</span>
+              <span class="material">Solutions</span></a></li>
+            <li><a href="#personal-actions"><span class="material displayed">Ενέργειες</span><span class="material">Actions</span></a></li>
+            <li><a href="#sources"><span class="material displayed">Πηγές & Υλικό</span>
+              <span class="material">Sources & Material</span></a></li>
+          </ul>
+        </li>
+      </ul>
+    
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="foreword">
+
+      <div class="material displayed">
+        <h2>Πρόλογος</h2>
+
+        <div class="section-subcontainer">
+          <p>Η ιστοσελίδα αυτή αναπτύχθηκε με σκοπό να προσφέρει μια συνοπτική αλλά περιεκτική επισκόπηση του φαινομένου της κλιματικής αλλαγής, εξηγώντας τις αιτίες, τις επιπτώσεις και τις πιθανές λύσεις. </p>
+          <p>Ξεκινώντας με μια εισαγωγή στις βασικές έννοιες, εξηγείται η διαφορά μεταξύ καιρού και κλίματος, το φαινόμενο του θερμοκηπίου και ο ρόλος των ανθρωπογενών δραστηριοτήτων στην υπερθέρμανση του πλανήτη. Ο άνθρωπος, μέσα από τη χρήση ορυκτών καυσίμων, την αποψίλωση των δασών και τη βιομηχανική ανάπτυξη, έχει συμβάλει στην αύξηση των εκπομπών αερίων που παγιδεύουν τη θερμότητα στην ατμόσφαιρα, προκαλώντας ανησυχητικές μεταβολές στο παγκόσμιο κλίμα.</p>
+          <p>Στη συνέχεια, αναφέρονται τα επιστημονικά δεδομένα που επιβεβαιώνουν την ύπαρξη και την ένταση της κλιματικής αλλαγής. Μεθοδολογίες όπως η μελέτη των πάγων, των δακτυλίων των δέντρων και η δορυφορική παρακολούθηση προσφέρουν αδιάσειστα στοιχεία ότι η θερμοκρασία της Γης αυξάνεται με ραγδαίους ρυθμούς. Η παγκόσμια επιστημονική κοινότητα συμφωνεί ότι το φαινόμενο είναι σε μεγάλο βαθμό αποτέλεσμα ανθρώπινης δραστηριότητας, γεγονός που καθιστά επιτακτική την ανάγκη λήψης μέτρων.</p>
+          <p>Οι επιπτώσεις της κλιματικής αλλαγής είναι πολυδιάστατες και αγγίζουν τόσο το φυσικό περιβάλλον όσο και την κοινωνία. Η άνοδος της στάθμης της θάλασσας, η τήξη των πάγων και η απώλεια βιοποικιλότητας είναι μόνο μερικές από τις περιβαλλοντικές συνέπειες, ενώ παράλληλα, η αύξηση των ακραίων καιρικών φαινομένων επιφέρει καταστροφές σε καλλιέργειες, υποδομές και ανθρώπινες κοινότητες. Οικονομικές ανισότητες διευρύνονται, καθώς ευάλωτες κοινωνικές ομάδες πλήττονται περισσότερο, ενώ η δημόσια υγεία επιβαρύνεται λόγω της ατμοσφαιρικής ρύπανσης και της εξάπλωσης ασθενειών που ευνοούνται από την αύξηση της θερμοκρασίας.</p>
+          <p>Παρά την κρισιμότητα της κατάστασης, αναδεικνύονται λύσεις που μπορούν να μετριάσουν τις επιπτώσεις της κλιματικής αλλαγής. Η μετάβαση σε ανανεώσιμες πηγές ενέργειας, η βελτίωση της ενεργειακής απόδοσης και η υιοθέτηση βιώσιμων πρακτικών στην παραγωγή και κατανάλωση μπορούν να συμβάλουν στη μείωση των εκπομπών αερίων του θερμοκηπίου. Παράλληλα, η έγκαιρη δράση μπορεί να επιφέρει σημαντικά οικονομικά και κοινωνικά οφέλη, δημιουργώντας νέες θέσεις εργασίας και βελτιώνοντας την ποιότητα ζωής.</p>
+          <p>Τέλος, τονίζεται τη σημασία της ατομικής δράσης για την αντιμετώπιση του προβλήματος μέσα από καθημερινές συνήθειες, όπως η εξοικονόμηση ενέργειας, η μείωση των απορριμμάτων και η στήριξη πολιτικών και εταιρειών που προάγουν τη βιωσιμότητα. Μέσα από τη συλλογική προσπάθεια, είναι δυνατό να περιοριστούν οι επιπτώσεις της κλιματικής αλλαγής και να διαμορφωθεί ένα βιώσιμο μέλλον για τις επόμενες γενιές.</p>
+          <p>Κάθε δράση, όσο μικρή κι αν φαίνεται, συνεισφέρει στη συνολική προσπάθεια. Η ευαισθητοποίηση, οι υπεύθυνες επιλογές και η διεκδίκηση αλλαγών μπορούν να επιφέρουν σημαντικό αντίκτυπο με την πάροδο του χρόνου. Η μετάβαση σε έναν πιο βιώσιμο κόσμο απαιτεί αμεσότητα, συνεργασία και δέσμευση — αλλά είναι ακόμη εφικτή, αν αναλάβουμε δράση τώρα.</p>
+        </div>
+      </div>
+
+      <div class="material">
+        <h2>Foreword</h2>
+
+        <div class="section-subcontainer">
+          <p>The goal of this website is to offer a concise yet comprehensive overview of the phenomenon of climate change, explaining its causes, impacts, and possible solutions.</p>
+          <p>Starting with an introduction to key concepts, it clarifies the difference between weather and climate, the greenhouse effect, and the role of human activities in global warming. Through the use of fossil fuels, deforestation, and industrial development, humans have contributed to the increase of heat-trapping gas emissions in the atmosphere, causing alarming changes in the global climate.</p>
+          <p>Next, the scientific data confirming the existence and severity of climate change is presented. Research methods such as ice core analysis, tree ring studies, and satellite monitoring provide undeniable evidence that Earth's temperature is rising at an accelerating rate. The global scientific community agrees that this phenomenon is largely driven by human activity, making immediate action necessary.</p>
+          <p>The impacts of climate change are multifaceted, affecting both the natural environment and society. Rising sea levels, ice melting, and biodiversity loss are just some of the environmental consequences, while the increase in extreme weather events causes destruction to crops, infrastructure, and human communities. Economic inequalities are widening as vulnerable social groups are disproportionately affected, and public health is deteriorating due to air pollution and the spread of diseases that thrive in rising temperatures.</p>
+          <p>Despite the severity of the situation, solutions are emerging that can help mitigate climate change’s effects. Transitioning to renewable energy sources, improving energy efficiency, and adopting sustainable practices in production and consumption can significantly reduce greenhouse gas emissions. At the same time, timely action can bring substantial economic and social benefits, creating new job opportunities and improving quality of life.</p>
+          <p>Finally, the importance of individual action in tackling the problem is emphasized through everyday habits such as conserving energy, reducing waste, and supporting policies and businesses that promote sustainability. Through collective effort, the impacts of climate change can be mitigated, shaping a sustainable future for future generations.</p>
+          <p>Every action, no matter how small, contributes to the overall effort. Raising awareness, making responsible choices, and advocating for change can have a significant impact over time. The transition to a more sustainable world requires urgency, cooperation, and commitment—but it is still possible if action is taken now.</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="contents">
+
+      <div class="material displayed">
+
+        <h2>Περιεχόμενα</h2>
+        <div class="section-subcontainer">
+          
+          <a class="content-section" href="#foreword">Πρόλογος</a>
+          
+          <a class="content-section" href="#introduction">Εισαγωγή</a>
+
+
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποια είναι η διαφορά μεταξύ καιρού και κλίματος;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Τι είναι η κλιματική αλλαγή;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποια είναι η διαφορά μεταξύ της κλιματικής αλλαγής και της κλιματικής μεταβλητότητας;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Τι είναι το φαινόμενο του θερμοκηπίου, ποια τα αέρια του θερμοκηπίου και πώς επηρεάζει ο άνθρωπος το κλίμα και τη θερμοκρασία της Γης;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποια είναι η διαφορά μεταξύ της παγκόσμιας θέρμανσης και της κλιματικής αλλαγής;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποιοι τύποι δεδομένων χρησιμοποιούνται για τη μελέτη του κλίματος;</a></li>
+          </ul>
+
+          <a class="content-section" href="#causes">Η Κλιματική Αλλαγή Σήμερα</a>
+        
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Υπάρχει επιστημονική συναίνεση ότι οι ανθρώπινες δραστηριότητες προκαλούν τη σημερινή κλιματική αλλαγή;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πώς γνωρίζουμε ποια ήταν τα επίπεδα της θερμοκρασίας του πλανήτη και των αερίων του θερμοκηπίου στο μακρινό παρελθόν ώστε να κάνουμε συγκρίσεις;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πώς κατέληξε η επιστημονική κοινότητα στο συμπέρασμα ότι ο άνθρωπος ευθύνεται για την κλιματική αλλαγή;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Συμβάλλουν οι φυσικές μεταβολές του κλίματος στη σημερινή κλιματική αλλαγή;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Συμβαίνει η κλιματική αλλαγή ομοιόμορφα σε όλο τον πλανήτη;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πώς γνωρίζουμε ότι οι άνθρωποι ευθύνονται για την αύξηση του διοξειδίου του άνθρακα;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Για ποιο λόγο αυξήθηκαν ραγδαία οι εκπομπές των επικίνδυνων αερίων;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ένα από τα φαινόμενα της κλιματικής αλλαγής είναι η αύξηση της στάθμης της θάλασσας. Υπάρχουν συγκεκριμένες καταγραφές που να το αποδεικνύουν;</a></li>
+          </ul>
+
+
+          <a class="content-section" href="#effects">Επιπτώσεις της Κλιματικής Αλλαγής</a>
+        
+          <ul>
+              <li><a class="content-tag" class="content-tag" onclick="goToContent(this)">Πόσο σοβαρό είναι το πρόβλημα;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποιες είναι οι συνέπειες στη φύση;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποιες είναι οι κοινωνικές συνέπειες;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποιες είναι οι συνέπειες στην οικονομία;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πώς επηρεάζει η κλιματική αλλαγή την υγεία των ανθρώπων;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποιοι κινδυνεύουν περισσότερο από τις επιπτώσεις της κλιματικής αλλαγής;</a></li>
+          </ul>
+        
+          <a class="content-section" href="#solutions">Λύσεις στο Πρόβλημα της Κλιματικής Αλλαγής</a>
+        
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Υπάρχουν πραγματοποιήσιμες λύσεις στο πρόβλημα;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πώς μπορούν οι άνθρωποι να μειώσουν τους κινδύνους της κλιματικής αλλαγής;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Ποια είναι τα οφέλη της άμεσης δράσης;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Η καθαρή ενέργεια βοηθά ή βλάπτει την οικονομία;</a></li>
+          </ul>
+
+          <a class="content-section" href="#personal-actions">Προσωπικές Ενέργειες</a>
+
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Η αλλαγή του κλίματος δείχνει να είναι ραγδαία. Τι μπορώ να κάνω προσωπικά γι' αυτό;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πως βοηθάω ανακυκλώνοντας;</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Πώς βοηθάω μειώνοντας την αλόγιστη κατανάλωση αγαθών; </a></li>
+          </ul>
+
+          <a class="content-section" href="#sources">Πηγές & Υλικό</a>
+
+        </div>
+      </div>
+      
+      <div class="material">
+        <h2>Contents</h2>
+        <div class="section-subcontainer">
+
+          <a class="content-section" href="#foreword">Foreword</a>
+
+          <a class="content-section" href="#introduction">Introduction</a>
+          
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">What is the difference between weather and climate?</a></li>
+              
+              <li><a class="content-tag" onclick="goToContent(this)">What is climate change?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">What is the difference between climate change and climate variability?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">What is the greenhouse effect, what are greenhouse gases, and how do humans influence the Earth's climate and temperature?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">What is the difference between global warming and climate change?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">What types of data are used to study climate change?</a></li>
+          </ul>
+      
+          <a class="content-section" href="#causes">Climate Change Today</a>
+        
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Is there a scientific consensus that human activities cause current climate change?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">How do we know what the planet's temperature levels and greenhouse gas concentrations were in the distant past in order to make comparisons?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">How did the scientific community reached the conclusion that human activities are responsible for climate change?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">Do natural climate variations contribute to today's climate change?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">Does climate change occur uniformly all over the planet?</a></li>
+              
+              <li><a class="content-tag" onclick="goToContent(this)">How do we know that humans are responsible for the increase in carbon dioxide?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">Why have emissions of dangerous gases increased rapidly?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">One of the phenomena of climate change is the rise in sea levels. Are there specific records to prove it?</a></li>
+          </ul>
+      
+      
+          <a class="content-section" href="#effects">Impacts of Climate Change</a>
+        
+          <ul>
+              <li><a class="content-tag" class="content-tag" onclick="goToContent(this)">How serious is the problem?</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">What are the consequences for nature?</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">What are the consequences for society?</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">What are the consequences for economy?</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">How climate change affects health?</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">Who is most at risk from the effects of climate change?</a></li>
+          </ul>
+        
+          <a class="content-section" href="#solutions">Solutions to the Climate Change Problem</a>
+        
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Are there realistic solutions to the problem?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">How can people reduce climate change risks?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">What are the benefits of immediate action?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">Does clean energy help or harm the economy?</a></li>
+          </ul>
+      
+          <a class="content-section" href="#personal-actions">Personal Actions</a>
+      
+          <ul>
+              <li><a class="content-tag" onclick="goToContent(this)">Climate change seems overwhelming. What can I do personally?</a></li>
+      
+              <li><a class="content-tag" onclick="goToContent(this)">How does recycling help?</a></li>
+              <li><a class="content-tag" onclick="goToContent(this)">How does reducing excessive consumption help?</a></li>
+          </ul>
+      
+          <a class="content-section" href="#sources">Sources & Material</a>
+      
+        </div>
+      </div>
+      
+
+
+    </section>
+
+    <section id="introduction">
+      <div class="material displayed">
+        <h2>Εισαγωγή</h2>
+      
+        <details>
+            <summary>Ποια είναι η διαφορά μεταξύ καιρού και κλίματος;</summary>
+            <p>Ο <i>καιρός</i> αναφέρεται στην καθημερινή κατάσταση της ατμόσφαιρας, όπως ο συνδυασμός θερμοκρασίας, υγρασίας, βροχοπτώσεων, ανέμου και άλλων παραγόντων. Το <i>κλίμα</i> περιγράφει τον καιρό ενός τόπου κατά μέσο όρο για μια χρονική περίοδο, συχνά 30 ετών ή περισσότερο.</p>
+            <p>Η διαφορά μεταξύ καιρού και κλίματος ορίζεται κυρίως από τον χρόνο και τη γεωγραφία. Ο καιρός αναφέρεται στις συνθήκες της ατμόσφαιρας σε σύντομο χρονικό διάστημα και συνήθως για μια τοπική περιοχή. Το κλίμα αναφέρεται στη συμπεριφορά της ατμόσφαιρας σε μεγαλύτερο χρονικό διάστημα και συνήθως για μια μεγάλη περιοχή. Οι επιστήμονες μπορούν να συγκρίνουν πρόσφατες και μακροπρόθεσμες παρατηρήσεις του κλίματος για να ανιχνεύουν τις μεταβολές του.</p>
+        </details>
+
+        <details>
+          <summary>Τι είναι η κλιματική αλλαγή;</summary>
+          <p>Η κλιματική αλλαγή περιλαμβάνει σημαντικές αλλαγές στις μέσες κλιματολογικές συνθήκες, όπως η θερμοκρασία, οι βροχοπτώσεις, τα μοτίβα ανέμου και άλλα στοιχεία του κλίματος, που συμβαίνουν σε χρονικά διαστήματα ετών, δεκαετιών, αιώνων ή περισσότερο. Η κλιματική αλλαγή περιλαμβάνει μακροπρόθεσμες τάσεις, όπως μετατοπίσεις προς θερμότερες, υγρότερες ή ξηρότερες συνθήκες. Αυτές οι τάσεις μπορεί να οφείλονται σε φυσική μεταβλητότητα του κλίματος με την πάροδο του χρόνου, καθώς και σε ανθρώπινες δραστηριότητες που προσθέτουν αέρια του θερμοκηπίου στην ατμόσφαιρα, όπως η καύση ορυκτών καυσίμων για ενέργεια.</p>
+        </details>
+
+        <details>
+          <summary>Ποια είναι η διαφορά μεταξύ της κλιματικής αλλαγής και της κλιματικής μεταβλητότητας;</summary>
+          <p>Η κλιματική αλλαγή συμβαίνει σε μεγάλα χρονικά διαστήματα, συνήθως δεκαετίες ή περισσότερο. Αντίθετα, η κλιματική μεταβλητότητα περιλαμβάνει αλλαγές που συμβαίνουν σε μικρότερα χρονικά διαστήματα, όπως ένας μήνας, μια εποχή ή ένα έτος. Η κλιματική μεταβλητότητα εξηγεί τη φυσική ποικιλομορφία του συστήματος. Ως παράδειγμα, ένα ασυνήθιστα κρύο ή υγρό έτος που ακολουθείται από ένα ασυνήθιστα θερμό ή ξηρό έτος δεν θα θεωρηθεί σημάδι κλιματικής αλλαγής.</p>
+        </details>
+
+        <details>
+          <summary>Τι είναι το φαινόμενο του θερμοκηπίου, ποια τα αέρια του θερμοκηπίου και πώς επηρεάζει ο άνθρωπος το κλίμα και τη θερμοκρασία της Γης;</summary>
+          <p>Φαινόμενο του θερμοκηπίου ονομάζεται η διαδικασία κατά την οποία η θερμότητα παγιδεύεται κοντά στην επιφάνεια της Γης από τα λεγόμενα αέρια του θερμοκηπίου.</p>
+          <p>Ο άνθρωπος επηρεάζει ολοένα και περισσότερο το κλίμα και τη θερμοκρασία του πλανήτη μέσω της χρήσης ορυκτών καυσίμων, της αποψίλωσης των δασών και της κτηνοτροφίας. Οι δραστηριότητες αυτές προσθέτουν τεράστιες ποσότητες αερίων του θερμοκηπίου στα αέρια που υπάρχουν ήδη στην ατμόσφαιρα, προκαλώντας αύξηση του φαινομένου του θερμοκηπίου. Συγκεκριμένα το διοξείδιο του άνθρακα (CO2), το μεθάνιο, το υποξείδιο του αζώτου και τα φθοριούχα αέρια, λειτουργούν όπως το γυαλί των θερμοκηπίων, παγιδεύοντας τη θερμότητα του ήλιου και εμποδίζοντας τη διάχυσή της στο διάστημα.</p>
+          <p>Το διοξείδιο του άνθρακα, είναι το αέριο του θερμοκηπίου που παράγεται συχνότερα από τις ανθρώπινες δραστηριότητες και ευθύνεται για το 63% της υπερθέρμανσης του πλανήτη. Η συγκέντρωσή του στην ατμόσφαιρα είναι σήμερα κατά 40% υψηλότερη από ό,τι κατά την έναρξη της εκβιομηχάνισης. Άλλα αέρια του θερμοκηπίου εκλύονται σε μικρότερες ποσότητες αλλά παγιδεύουν τη θερμότητα πολύ περισσότερο από το CO2, και σε μερικές περιπτώσεις είναι κατά πολύ ισχυρότερα. Το μεθάνιο ευθύνεται για το 19% της υπερθέρμανσης του πλανήτη από ανθρωπογενείς αιτίες και το υποξείδιο του αζώτου για το 6%.</p>
+        </details>
+
+        <details>
+          <summary>Ποια είναι η διαφορά μεταξύ της παγκόσμιας θέρμανσης και της κλιματικής αλλαγής;</summary>
+          <p>Οι όροι <i>παγκόσμια θέρμανση</i> και <i>κλιματική αλλαγή</i> χρησιμοποιούνται μερικές φορές εναλλακτικά, αλλά η παγκόσμια θέρμανση είναι μόνο μία από τις επιδράσεις που προκαλεί η αύξηση των συγκεντρώσεων των αερίων του θερμοκηπίου. Η παγκόσμια θέρμανση περιγράφει την πρόσφατη άνοδο της παγκόσμιας μέσης θερμοκρασίας κοντά στην επιφάνεια της γης, που προκαλείται κυρίως από την αύξηση των συγκεντρώσεων των αερίων του θερμοκηπίου (όπως το διοξείδιο του άνθρακα και το μεθάνιο) στην ατμόσφαιρα λόγω ανθρωπογενών δραστηριοτήτων, όπως η καύση ορυκτών καυσίμων για ενέργεια.
+          </p>
+          <p> Η παγκόσμια θερμοκρασία παρουσιάζει άνοδο από τις αρχές του 20ού αιώνα και κυρίως από τα τέλη της δεκαετίας του '70. Σε παγκόσμιο επίπεδο, από το 1880 η μέση θερμοκρασία έχει αυξηθεί περίπου 1°C.</p>
+          <p>Η κλιματική αλλαγή περιλαμβάνει την υπερθέρμανση του πλανήτη, αλλά και ένα ευρύτερο φάσμα αλλαγών που συμβαίνουν στη Γη, όπως η αύξηση της στάθμης της θάλασσας, η συρρίκνωση των ορεινών παγετώνων, το λιώσιμο των πάγων στη Γροιλανδία, την Ανταρκτική και την Αρκτική καθώς και η εμφάνιση όλο και πιο συχνά ακραίων καιρικών φαινομένων όπως καταστροφικές πυρκαγιές, πλημμύρες και μεγάλες περίοδοι ξηρασίας.</p>
+        </details>
+
+        <details>
+          <summary>Ποιοι τύποι δεδομένων χρησιμοποιούνται για τη μελέτη του κλίματος;</summary>
+          <p>Οι επιστήμονες χρησιμοποιούν διάφορα είδη δεδομένων για να μελετήσουν το κλίμα. Το σύγχρονο θερμόμετρο εφευρέθηκε το 1654, ενώ τα παγκόσμια αρχεία θερμοκρασιών ξεκίνησαν το 1880. Οι ερευνητές του κλίματος αξιοποιούν ποικιλία άμεσων και έμμεσων μετρήσεων για να εξετάσουν την ιστορία του κλίματος της Γης με ολοκληρωμένο τρόπο.</p>
+          <p>Οι άμεσες μετρήσεις περιλαμβάνουν δεδομένα από δορυφόρους στο διάστημα, όργανα στον Διεθνή Διαστημικό Σταθμό, αεροσκάφη, πλοία, πλωτήρες και επίγεια όργανα.</p>
+          <p>Όταν οι επιστήμονες επικεντρώνονται σε περιόδους πριν από τα τελευταία 100-150 χρόνια, χρησιμοποιούν αρχεία από φυσικά, χημικά και βιολογικά υλικά που έχουν διατηρηθεί στο γεωλογικό αρχείο. Η Γη διαθέτει κλιματικές ενδείξεις που χρονολογούνται πριν από περισσότερα από τρία δισεκατομμύρια χρόνια, αποθηκευμένες σε στρώματα πετρωμάτων, πολικούς πάγους, ιζήματα λιμνών και άλλα.</p>
+          <p>Διάφοροι οργανισμοί (όπως φύκη, κοράλλια και είδη μονοκύτταρων οργανισμών) μπορούν να λειτουργήσουν ως χρήσιμα  «κλιματικά υποκατάστατα». Άλλα υποκατάστατα περιλαμβάνουν τις στήλες πάγου, τους δακτυλίους ανάπτυξης των δέντρων και τους πυρήνες ιζημάτων. Τα χημικά υποκατάστατα περιλαμβάνουν αναλογίες ισοτόπων, αναλύσεις στοιχείων, βιοδείκτες και βιογενή πυριτία. Συλλογικά, αυτά τα υποκατάστατα επεκτείνουν σημαντικά την κατανόησή μας για τα κλίματα του παρελθόντος, φτάνοντας πολύ πίσω στην ιστορία της Γης.</p>
+        </details>
+      </div>
+
+      <div class="material">
+
+        <h2>Introduction</h2>
+      
+        <details>
+          <summary>What is the difference between weather and climate?</summary>
+        
+          <p>Weather refers to the daily state of the atmosphere, including temperature, humidity, precipitation, wind, and other factors. Climate describes the average weather conditions of a place over a long period, often 30 years or more.</p>
+        
+          <p>The difference between weather and climate is mainly defined by time and geography. Weather refers to short-term atmospheric conditions in a localized area, while climate refers to long-term atmospheric behavior over larger regions. Scientists compare recent and long-term climate observations to detect changes.</p>
+        </details>
+        
+        <details>
+          <summary>What is climate change?</summary>
+        
+          <p>Climate change involves significant shifts in average climatic conditions such as temperature, precipitation, wind patterns, and other climate elements, occurring over years, decades, centuries, or longer. Climate change includes long-term trends such as shifts toward warmer, wetter, or drier conditions. These trends may be due to natural climate variability over time as well as human activities that add greenhouse gases to the atmosphere, such as burning fossil fuels for energy.</p>
+        </details>
+        
+        <details>
+          <summary>
+            What is the difference between climate change and climate variability?
+          </summary>
+        
+          <p>Climate change happens over long timeframes, usually decades or more. In contrast, climate variability includes changes that occur over shorter time periods, such as a month, a season, or a year. Climate variability explains the natural diversity of the climate system. For example, an unusually cold or wet year followed by an unusually warm or dry year would not be considered a sign of climate change.</p>
+        </details>
+        
+        <details>
+          <summary>What is the greenhouse effect, what are greenhouse gases, and how do humans influence the Earth's climate and temperature?</summary>
+        
+          <p>The greenhouse effect is the process by which heat is trapped near the Earth's surface by greenhouse gases. Greenhouse gases include carbon dioxide, methane, nitrous oxide, and fluorinated gases. These gases act like the glass in a greenhouse, trapping the Sun's heat and preventing it from escaping into space.</p>
+        
+          <p>Humans increasingly influence the climate and Earth's temperature through activities such as the use of fossil fuels, deforestation, and livestock farming. These activities add large amounts of greenhouse gases to those already present in the atmosphere, enhancing the greenhouse effect.</p>
+        
+          <p>Carbon dioxide is the most common greenhouse gas from human activities, responsible for 63 percent of global warming. The current concentration is 40% higher than in the beginning of industrial era. Other greenhouse gases, such as fluorinated gases, are emitted in smaller amounts but have a much stronger heat-trapping effect than carbon dioxide. Methane is responsible for 19% percent, while nitrous oxide accounts for 6%.</p>
+        </details>
+        
+        <details>
+          <summary>What is the difference between global warming and climate change?</summary>
+        
+          <p>The terms <em>global warming</em> and <em>climate change</em> are sometimes used interchangeably, but global warming is only one of the effects caused by increasing greenhouse gas concentrations. Global warming describes the recent rise in the global average temperature near Earth's surface, mainly due to the increase in greenhouse gas emissions from human activities such as burning fossil fuels for energy.</p>
+        
+          <p>Since the early 20th century, and particularly since the late 1970s, the global temperature has been rising. The global temperature has increased by approximately 1 degree Celsius since 1880.</p>
+        
+          <p>Climate change includes global warming but also encompasses a broader range of changes occurring on Earth, such as sea level rise, the shrinking of mountain glaciers, the melting of ice sheets in Greenland, Antarctica, and the Arctic, as well as the increasing frequency of extreme weather events like wildfires, floods, and prolonged droughts.</p>
+        </details>
+        
+        <details>
+          <summary>What types of data are used to study climate change?</summary>
+        
+          <p>Scientists use various types of data to study climate. Modern thermometers were invented in 1654, while global temperature records began in 1880. Climate researchers use a variety of direct and indirect measurements to examine Earth's climate history comprehensively.</p>
+        
+          <p>Direct measurements include data from satellites in space, instruments on the International Space Station, aircraft, ships, ocean buoys, and ground-based monitoring stations.</p>
+        
+          <p>For periods before the last 100 to 150 years, scientists rely on records from natural, chemical, and biological materials preserved in the geological record. Earth holds climate indicators dating back more than three billion years, stored in rock layers, polar ice, lake sediments, and other sources.</p>
+        
+          <p>Certain organisms, such as algae, corals, and single-celled microorganisms, serve as useful climate proxies. Other proxies include ice cores, tree rings, and sediment cores. Chemical proxies include isotope ratios, element analyses, biomarkers, and biogenic silica. These proxies collectively extend our understanding of past climates, reaching far into Earth's history.</p>
+        </details>
+      </div>
+
+    </section>
+
+    <section id="causes">
+      <div class="material displayed">
+      <h2>Η Κλιματική Αλλαγή Σήμερα</h2>
+
+        <details>
+          <summary>Υπάρχει επιστημονική συναίνεση ότι οι ανθρώπινες δραστηριότητες προκαλούν τη σημερινή κλιματική αλλαγή;</summary>
+          <p>Ναι. Η επιστημονική κοινότητα με αντικείμενο το κλίμα συμφωνεί σε μεγάλο βαθμό ότι οι ανθρώπινες δραστηριότητες ευθύνονται για τη σημερινή κλιματική αλλαγή, κυρίως μέσω της απελευθέρωσης υπερβολικών αερίων του θερμοκηπίου στην ατμόσφαιρα. Αυτές οι εκπομπές προέρχονται από δραστηριότητες όπως η καύση ορυκτών καυσίμων για ενέργεια, η εκτροφή ζώων και η αποψίλωση δασών. Στην Έκτη Έκθεση Αξιολόγησης της Διακυβερνητικής Επιτροπής των Ηνωμένων Εθνών για την Κλιματική Αλλαγή, που αντιπροσωπεύει τη δουλειά εκατοντάδων κορυφαίων ειδικών στην επιστήμη του κλίματος, δηλώνεται ότι:
+              <blockquote>
+                <em>«Είναι αναμφισβήτητο ότι η ανθρώπινη επιρροή έχει θερμάνει την ατμόσφαιρα, τον ωκεανό και τη γη. Εκτεταμένες και γρήγορες αλλαγές στην ατμόσφαιρα, τον ωκεανό, την κρυόσφαιρα και τη βιόσφαιρα έχουν ήδη συμβεί.»</em>
+              </blockquote>
+          </p>
+          <p>Η Πέμπτη Εθνική Αξιολόγηση για το Κλίμα (των Η.Π.Α.), που αναπτύχθηκε από το Αμερικανικό Πρόγραμμα Μεταβολών του Κλίματος (το οποίο αποτελείται από 15 ομοσπονδιακές επιστημονικές υπηρεσίες των Ηνωμένων Πολιτειών) κατέληξε στο συμπέρασμα ότι οι επιστημονικές αποδείξεις δείχνουν σταθερά ότι οι ανθρώπινες δραστηριότητες, και όχι φυσικές κλιματικές τάσεις, είναι η μόνη αξιόπιστη εξήγηση για την αύξηση της μέσης θερμοκρασίας κατά σχεδόν 1°C από τα τέλη του 19ου αιώνα. Αναφέρεται ότι:
+            <blockquote>
+                <em>«Οι ανθρώπινες δραστηριότητες αναμφισβήτητα έχουν προκαλέσει την παγκόσμια υπερθέρμανση κατά τη διάρκεια της βιομηχανικής εποχής, αυξάνοντας την ένταση, συχνότητα και διάρκεια πολλών ακραίων καιρικών και κλιματικών φαινομένων, συμπεριλαμβανομένων της ακραίας ζέστης, ακραίας βροχόπτωσης και πλημμυρών, ξηρασίας και πυρκαγιών.»</em>
+            </blockquote>
+          </p>
+
+          <p>Εκατοντάδες ανεξάρτητων επιστημονικών οργανισμών παγκοσμίως (όπως ο Παγκόσμιος Μετεωρολογικός Οργανισμός) έχουν διατυπώσει παρόμοια συμπεράσματα.</p>
+        </details>
+
+        <details>
+          <summary>Πώς γνωρίζουμε ποια ήταν τα επίπεδα της θερμοκρασίας του πλανήτη και των αερίων του θερμοκηπίου στο μακρινό παρελθόν ώστε να κάνουμε συγκρίσεις;</summary>
+          <p>Οι στήλες πάγου είναι η καλύτερη πηγή των επιστημόνων για τα ιστορικά δεδομένα για το κλίμα. Άλλα εργαλεία για τη μελέτη της αρχαίας ατμόσφαιρας της Γης περιλαμβάνουν τους δακτυλίους ανάπτυξης στα δέντρα (<i>δενδροδακτύλιοι</i>), οι οποίοι διατηρούν ένα ακατέργαστο ιστορικό της θερμοκρασίας, της υγρασίας και των επιπέδων νέφωσης κάθε εποχής, τα τελευταία, περίπου, 2.000 χρόνια. Τα κοράλλια σχηματίζουν επίσης κύκλους ανάπτυξης που παρέχουν πληροφορίες σχετικά με τη θερμοκρασία και τα θρεπτικά συστατικά στον τροπικό ωκεανό.</p>
+        </details>
+
+        <details>
+          <summary>Πώς κατέληξε η επιστημονική κοινότητα στο συμπέρασμα ότι ο άνθρωπος ευθύνεται για την κλιματική αλλαγή;</summary>
+          <p>Το πρώτο στοιχείο που αποδεικνύει ότι η αύξηση της θερμοκρασίας τις τελευταίες δεκαετίες δεν αποτελεί μέρος ενός φυσικού κύκλου είναι το πόσο γρήγορα συμβαίνει η αλλαγή. Οι μεγαλύτερες μεταβολές της θερμοκρασίας που έχει βιώσει ο πλανήτης μας κατά τα τελευταία εκατομμύρια χρόνια είναι οι εποχές των παγετώνων. Με βάση ένα συνδυασμό παλαιοκλιματικών δεδομένων και μοντέλων, η εκτίμηση της επιστημονικής κοινότητας είναι ότι όταν οι τελείωσε η εποχή των παγετώνων, χρειάστηκαν περίπου 5.000 χρόνια για να ζεσταθεί ο πλανήτης μεταξύ 4°C και 7°C. Η αύξηση της θερμοκρασίας του περασμένου αιώνα κατά 0,7°C Κελσίου είναι περίπου οκτώ φορές ταχύτερη, κατά μέσο όρο, από την αύξηση της θερμοκρασίας της εποχής του τέλους των παγετώνων.</p>
+          <p>Ο δεύτερος λόγος για τον οποίο οι ειδικοί καταλήγουν ότι η σημερινή αύξηση της θερμοκρασίας δεν οφείλεται σε φυσικές επιδράσεις, προκύπτει από τη συλλογή στοιχείων τα τελευταία 100 χρόνια για φυσικούς παράγοντες που επηρεάζουν το κλίμα, όπως αλλαγές στη φωτεινότητα του Ήλιου, σημαντικές ηφαιστειακές εκρήξεις, και φαινόμενα όπως το Ελ Νίνιο. Από την επεξεργασία των στοιχείων αυτών προέκυψε ότι δεν μπορεί να αποδοθεί σε αυτούς τους παράγοντες η πρόσφατη, ταχεία αύξηση της θερμοκρασίας της Γης.</p>
+        </details> 
+
+        <details>
+          <summary>Συμβάλλουν οι φυσικές μεταβολές του κλίματος στη σημερινή κλιματική αλλαγή;</summary>
+          <p>Η γη περνάει φυσικούς κύκλους θέρμανσης και ψύξης που προκαλούνται από παράγοντες όπως αλλαγές στον ήλιο ή ηφαιστειακή δραστηριότητα. Για παράδειγμα, υπήρξαν περίοδοι στο μακρινό παρελθόν που η γη ήταν θερμότερη από ό,τι είναι τώρα. Ωστόσο, οι φυσικές μεταβολές του κλίματος δεν εξηγούν τη σημερινή κλιματική αλλαγή. Το μεγαλύτερο μέρος της θέρμανσης από το 1950 και μετά έχει προκληθεί από τις ανθρωπογενείς εκπομπές αερίων του θερμοκηπίου που προέρχονται από διάφορες δραστηριότητες, συμπεριλαμβανομένης της καύσης ορυκτών καυσίμων.</p>
+        </details>
+
+        <details>
+          <summary>Συμβαίνει η κλιματική αλλαγή ομοιόμορφα σε όλο τον πλανήτη;</summary>
+          <p>Παρόλο που η κλιματική αλλαγή συχνά αναφέρεται σε παγκόσμιο επίπεδο, διαφορετικές γεωγραφικές περιοχές βιώνουν την κλιματική αλλαγή με διαφορετικούς τρόπους. Για παράδειγμα, ορισμένες περιοχές, όπως η Αρκτική, βιώνουν τη θέρμανση πιο γρήγορα από τον υπόλοιπο κόσμο.</p>
+          <p>Οι διαφορές, όπως αυτές, σχετίζονται με φυσικές κλιματικές μεταβολές, που μπορεί να συμβαίνουν λόγω διαφορών σε παράγοντες όπως η τοπογραφία, τα ρεύματα του ωκεανού και το γεωγραφικό πλάτος. Οι διαφορές στη χρήση γης μπορούν επίσης να επηρεάσουν τις περιφερειακές αλλαγές στο κλίμα. Για παράδειγμα, η αστικοποίηση και η αποψίλωση δασών έχουν αποδειχθεί ότι επιδεινώνουν τις αυξανόμενες θερμοκρασίες.</p>
+        </details>
+
+        <details>
+          <summary>Πώς γνωρίζουμε ότι οι άνθρωποι ευθύνονται για την αύξηση του διοξειδίου του άνθρακα;</summary>
+          <p>Υπάρχουν ισχυρές αποδείξεις, συμπεριλαμβανομένων των μελετών που χρησιμοποιούν τη ραδιενέργεια για τη διάκριση των βιομηχανικών εκπομπών από τις φυσικές εκπομπές, που δείχνουν ότι το επιπλέον αέριο προέρχεται από την ανθρώπινη δραστηριότητα. Τα επίπεδα διοξειδίου του άνθρακα αυξήθηκαν και μειώθηκαν φυσιολογικά στο παρελθόν, αλλά αυτές οι αλλαγές χρειάστηκαν χιλιάδες χρόνια. Οι κλιματικοί επιστήμονες έχουν καταλήξει στο συμπέρασμα ότι οι ανθρωπογενείς δραστηριότητες απελευθερώνουν σήμερα αυτό το αέριο στην ατμόσφαιρα πολύ πιο γρήγορα και έντονα σε σχέση με τις φυσικές διαδικασίες.</p>
+        </details>
+    
+        <details>
+          <summary>Για ποιο λόγο αυξήθηκαν ραγδαία οι εκπομπές των επικίνδυνων αερίων;</summary>
+          <p>Η αιτία της αύξησης των εκπομπών είναι η καύση του άνθρακα, του πετρελαίου και του φυσικού αερίου, που παράγουν διοξείδιο του άνθρακα και υποξείδιο του αζώτου.</p>
+          <p>Η δεύτερη αιτία είναι η αποψίλωση των δασών αφού τα δέντρα συμβάλλουν στη ρύθμιση του κλίματος διότι απορροφούν το CO2 από την ατμόσφαιρα. Έτσι, όταν τα δάση χάνονται, χάνεται και το πλεονέκτημα αποθήκευσης του άνθρακα, με αποτέλεσμα τεράστιες ποσότητες να απελευθερώνονται στην ατμόσφαιρα.</p>
+          <p>Η αύξηση της κτηνοτροφίας συμβάλλει επίσης στην αύξηση των εκπομπών αφού οι αγελάδες και τα αιγοπρόβατα παράγουν μεγάλες ποσότητες μεθανίου κατά την πέψη της τροφής τους, ενώ τα αζωτούχα λιπάσματα ευθύνονται για τις εκπομπές υποξειδίου του αζώτου.</p>
+        </details>           
+
+        <details>
+          <summary>Ένα από τα φαινόμενα της κλιματικής αλλαγής είναι η αύξηση της στάθμης της θάλασσας. Υπάρχουν συγκεκριμένες καταγραφές που να το αποδεικνύουν;</summary>
+          <p>Χάρη στα δεδομένα δορυφορικών και παλιρροϊκών μετρητών της NASA, γνωρίζουμε ότι η στάθμη της θάλασσας αυξάνεται περίπου κατά 3,3mm ετησίως, ποσοστό που κάθε δέκα χρόνια αυξάνεται κατά ακόμα 1mm ετησίως. Κάθε χρόνο στον Ατλαντικό προστίθενται 750 γιγατόνοι νερού, με τον 1 γιγατόνο να ισούται με 1 τρισεκατομμύριο κιλά! Μόνο το λιώσιμο των πάγων στη Γροιλανδία και την Ανταρκτική έχει αυξήσει την παγκόσμια στάθμη της θάλασσας περισσότερο από 1,27cm τα τελευταία 16 χρόνια.</p>
+        </details>
+      </div>
+
+      <div class="material">
+
+        <h2>Climate Change Today</h2>
+      
+        <details>
+          <summary>Is there a scientific consensus that human activities cause current climate change?</summary>
+      
+          <p>There is strong scientific consensus that human activities cause current climate change. The scientific community specializing in climate science overwhelmingly agrees that human activities are responsible for modern climate change, mainly through the release of excessive greenhouse gases into the atmosphere. These emissions come from activities such as burning fossil fuels for energy, raising livestock, and deforestation. The Sixth Assessment Report of the Intergovernmental Panel on Climate Change, representing the work of hundreds of top climate scientists, states that:</p>
+      
+          <blockquote><em>"It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere, and biosphere have occurred."</em></blockquote>
+      
+          <p>The Fifth National Climate Assessment of the United States, developed by the U.S. Climate Change Program, which consists of 15 federal science agencies, concluded that scientific evidence consistently shows that human activities, and not natural climate trends, are the only reliable explanation for the nearly 1 degree Celsius increase in global average temperature since the late 19th century. The report states that:</p>
+      
+          <blockquote><em>"Human activities have unequivocally caused the global warming observed over the industrial era, altering the intensity, frequency, and duration of many weather and climate extremes, including extreme heat, extreme precipitation and flooding, drought, and wildfire."</em></blockquote>
+      
+          <p>Hundreds of independent scientific organizations worldwide, including the World Meteorological Organization, have reached similar conclusions.</p>
+        </details>
+      
+        <details>
+          <summary>How do we know what the planet's temperature levels and greenhouse gas concentrations were in the distant past in order to make comparisons?</summary>
+      
+          <p>Ice cores are the best source for scientists to obtain historical climate data. Other tools for studying Earth’s ancient atmosphere include tree growth rings, which preserve a rough record of temperature, humidity, and cloud cover levels for approximately the past 2,000 years. Corals also form growth rings that provide information about temperature and nutrient levels in the tropical ocean.</p>
+        </details>
+      
+        <details>
+          <summary>How did the scientific community reached the conclusion that human activities are responsible for climate change?</summary>
+      
+          <p>The first evidence proving that the rise in temperature in recent decades is not part of a natural cycle is the speed at which the change is happening. Major temperature shifts over the last million years have been associated with glacial periods. Analysis of past climate records suggests that when ice ages ended, it took about 5000 years for the planet to warm by 4 to 7 degrees Celsius. The warming in the past century alone, at about 0.7 degrees Celsius, is roughly eight times faster on average than the warming at the end of glacial periods.</p>
+      
+          <p>Another reason experts conclude that the current temperature rise is not due to natural influences comes from over a century of data collection on natural climate factors such as changes in solar brightness, major volcanic eruptions, and phenomena like El Niño. By analyzing this data, scientists determined that these natural factors cannot account for the rapid temperature increase in recent decades.</p>
+        </details>
+      
+        <details>
+          <summary>Do natural climate variations contribute to today's climate change?</summary>
+      
+          <p>The Earth goes through natural cycles of warming and cooling caused by factors such as changes in the sun or volcanic activity. For example, there have been periods in the distant past when the Earth was warmer than it is now. However, natural climate variations do not explain today's climate change. Most of the warming since 1950 has been caused by human-induced greenhouse gas emissions from various activities, including the burning of fossil fuels.</p>
+        </details>
+      
+        <details>
+          <summary>Does climate change occur uniformly all over the planet?</summary>
+      
+          <p>Although climate change is often discussed on a global scale, different geographic regions experience climate change in different ways. For example, some areas, such as the Arctic, are warming faster than the rest of the world.</p>
+      
+          <p>These differences are related to natural climate variations, which may occur due to factors such as topography, ocean currents, and geographic latitude. Land use differences can also affect regional climate changes. For example, urbanization and deforestation have been shown to exacerbate rising temperatures.</p>
+        </details>
+      
+        <details>
+          <summary>How do we know that humans are responsible for the increase in carbon dioxide?</summary>
+      
+        <p>There is strong evidence, including studies using radioactivity to distinguish industrial emissions from natural emissions, showing that the extra gas comes from human activity. Carbon dioxide levels have naturally risen and fallen in the past, but these changes took thousands of years. Climate scientists have concluded that human activities are now releasing this gas into the atmosphere much faster and more intensely than natural processes.</p>
+        </details>
+      
+        <details>
+          <summary>Why have emissions of dangerous gases increased rapidly?</summary>
+      
+          <p>The cause of the increase in emissions is the burning of coal, oil, and natural gas, which produce carbon dioxide and nitrous oxide.</p>
+      
+          <p>The second cause is deforestation, as trees help regulate the climate by absorbing CO2 from the atmosphere. Thus, when forests are lost, the carbon storage advantage is also lost, resulting in enormous amounts being released into the atmosphere.</p>
+      
+          <p>The increase in livestock farming also contributes to rising emissions since cows and sheep produce large amounts of methane during digestion, while nitrogen-based fertilizers are responsible for nitrous oxide emissions.</p>
+        </details>
+      
+        <details>
+          <summary>One of the phenomena of climate change is the rise in sea levels. Are there specific records to prove it?</summary>
+      
+          <p>Thanks to NASA's satellite and tidal gauge data, we know that sea levels are rising by about 3.3mm per year, a rate that increases by another 1mm per year every decade. Every year, 750 gigatons of water are added to the Atlantic, with 1 gigaton equaling 1 trillion kilograms! Just the melting of ice in Greenland and Antarctica has raised global sea levels by more than 1.27cm in the past 16 years.</p>
+        </details>
+      
+      </div>
+    </section>
+
+    <section id="effects">
+      <div class="material displayed">
+        <h2>Επιπτώσεις της Κλιματικής Αλλαγής</h2>
+
+        <details>
+          <summary>Πόσο σοβαρό είναι το πρόβλημα;</summary>
+          <p>Η επιστημονική κοινότητα συμφωνεί ότι, τα επόμενα 25 ή 30 χρόνια, το κλίμα είναι πιθανό να θερμαίνεται σταδιακά, με πιο ακραίες καιρικές συνθήκες. Οι κοραλλιογενείς ύφαλοι και άλλα ευαίσθητα οικοσυστήματα έχουν ήδη αρχίσει να πεθαίνουν. </p>
+          <p>Μακροπρόθεσμα, εάν οι εκπομπές αυξηθούν ανεξέλεγκτα, οι ειδικοί ανησυχούν ότι οι κλιματικές επιπτώσεις θα είναι τόσο σοβαρές, ώστε ενδέχεται να αποσταθεροποιήσουν κυβερνήσεις, να προκαλέσουν προσφυγικά κύματα, να επισπεύσουν την έκτη μαζική εξαφάνιση φυτών και ζώων στην ιστορία της Γης και να λιώσουν τους πολικούς πάγους, προκαλώντας τέτοια αύξηση της στάθμης της θάλασσας που αναμένεται να πλημμυρίσουν οι περισσότερες παράκτιες πόλεις του κόσμου. Οι εκπομπές που δημιουργούν αυτούς τους κινδύνους συμβαίνουν τώρα, εγείροντας βαθιά ηθικά ερωτήματα για τη γενιά μας.</p>
+        </details>
+
+        <details>
+          <summary>Ποιες είναι οι συνέπειες στη φύση;</summary>
+
+          <p>Η κλιματική αλλαγή έχει σοβαρές συνέπειες για τη φύση, διαταράσσοντας τα οικοσυστήματα και απειλώντας τη βιοποικιλότητα. Εδώ είναι μερικές βασικές επιπτώσεις:</p>
+
+          <p><strong>Απώλεια και μεταβολή ενδιαιτημάτων.</strong> Η άνοδος της θερμοκρασίας και οι αλλαγές στις βροχοπτώσεις μεταβάλλουν τα φυσικά ενδιαιτήματα. Τα δάση, οι υγρότοποι, οι κοραλλιογενείς ύφαλοι και οι πολικές περιοχές είναι ιδιαίτερα ευάλωτες. Είδη που εξαρτώνται από συγκεκριμένες κλιματικές συνθήκες μπορεί να δυσκολευτούν να επιβιώσουν ή να μεταναστεύσουν.</p>
+
+          <p>Η κλιματική αλλαγή έρχεται τόσο γρήγορα που πολλά είδη φυτών και ζώων αγωνίζονται για να επιβιώσουν. Υπάρχουν σαφή στοιχεία που δείχνουν ότι η βιοποικιλότητα ανταποκρίνεται ήδη και θα συνεχίσει να ανταποκρίνεται στην κλιματική αλλαγή. Μερικές από τις άμεσες επιπτώσεις της κλιματικής αλλαγής είναι οι αλλαγές στη φαινολογία (τη συμπεριφορά και τον κύκλο ζωής των ζωικών και φυτικών ειδών), την αφθονία και την κατανομή των ειδών, τη σύνθεση της κοινότητας, τη δομή των οικοτόπων και τις διαδικασίες των οικοσυστημάτων.</p>
+
+          <p>Η κλιματική αλλαγή έχει επίσης έμμεσες επιπτώσεις στη βιοποικιλότητα μέσω των αλλαγών στη χρήση της γης και άλλων πόρων. Οι επιπτώσεις αυτές μπορεί να είναι πιο επιζήμιες από τις άμεσες επιπτώσεις λόγω της κλίμακας, του εύρους και της ταχύτητάς τους. Οι έμμεσες επιπτώσεις περιλαμβάνουν κατακερματισμό και απώλεια οικοτόπων, υπερεκμετάλλευση, ρύπανση του αέρα, των υδάτων και του εδάφους, εξάπλωση χωροκατακτητικών ειδών. Θα μειωθεί περαιτέρω η ανθεκτικότητα των οικοσυστημάτων στην κλιματική αλλαγή και η ικανότητά τους να προσφέρουν πολύτιμες υπηρεσίες στον άνθρωπο, όπως η ρύθμιση του κλίματος, τα τρόφιμα, ο καθαρός αέρας, το καθαρό νερό και ο έλεγχος των πλημμυρών ή της διάβρωσης.</p>
+
+          <p><strong>Εξαφανίσεις Ειδών και απώλεια βιοποικιλότητας.</strong> Πολλά είδη δεν μπορούν να προσαρμοστούν αρκετά γρήγορα στις ραγδαίες κλιματικές αλλαγές. Η λεύκανση των κοραλλιών λόγω της αύξησης της θερμοκρασίας των ωκεανών απειλεί τη θαλάσσια βιοποικιλότητα. Οι πολικές αρκούδες, τα αμφίβια και ορισμένα είδη πουλιών διατρέχουν αυξημένο κίνδυνο.</p>
+
+          <p><strong>Οξίνιση των ωκεανών και διαταραχές στη θαλάσσια ζωή.</strong> Η αυξημένη απορρόφηση CO₂ μειώνει το pH των ωκεανών, επηρεάζοντας οργανισμούς που σχηματίζουν κελύφη (π.χ. κοράλλια, μαλάκια). Οι πληθυσμοί των ψαριών και οι τροφικές αλυσίδες διαταράσσονται, επηρεάζοντας τόσο τα θαλάσσια οικοσυστήματα όσο και τη βιομηχανία αλιείας.</p>
+      
+          <p><strong>Υψηλές θερμοκρασίες.</strong> Η κλιματική αλλαγή έχει αυξήσει τη μέση θερμοκρασία του πλανήτη και οδηγεί σε συχνότερες ακραίες συνθήκες υψηλής θερμοκρασίας, όπως οι καύσωνες. Οι υψηλότερες θερμοκρασίες αναμένεται να προκαλέσουν μεταβολή της γεωγραφικής κατανομής των κλιματικών ζωνών. Οι αλλαγές αυτές μεταβάλλουν την κατανομή και την αφθονία πολλών φυτικών και ζωικών ειδών, τα οποία ήδη υφίστανται πιέσεις από την απώλεια οικοτόπων και τη ρύπανση.</p>
+
+          <p>Η άνοδος της θερμοκρασίας είναι επίσης πιθανό να επηρεάσει τη συμπεριφορά και τον κύκλο ζωής ζωικών και φυτικών ειδών. Αυτό με τη σειρά του μπορεί να οδηγήσει σε αύξηση του αριθμού των επιβλαβών οργανισμών και των χωροκατακτητικών ειδών, καθώς και σε αύξηση της συχνότητας εμφάνισης ορισμένων ανθρώπινων ασθενειών. Επιπλέον, ενδέχεται να μειωθούν η παραγωγή και η βιωσιμότητα της γεωργίας και της κτηνοτροφίας ή η ικανότητα των οικοσυστημάτων να παρέχουν τα, πολύτιμα στον άνθρωπο, αγαθά τους (όπως η παροχή καθαρού νερού ή δροσερού και καθαρού αέρα).</p>
+
+          <p><strong>Ξηρασία και δασικές πυρκαγιές.</strong> Λόγω του μεταβαλλόμενου κλίματος, σε πολλές περιoχές παρατηρείται ήδη αύξηση της συχνότητας, της έντασης και της διάρκειας των περιόδων ξηρασίας. Αποτέλεσμα είναι το ασυνήθιστο έλλειμμα διαθεσιμότητας ύδατος, οφειλόμενο στον συνδυασμό έλλειψης βροχοπτώσεων και αύξησης της εξάτμισης των υδάτων (λόγω των υψηλών θερμοκρασιών). Μειώνεται τη στάθμη των ποταμών και των υπόγειων υδάτων, παρεμποδίζουν την ανάπτυξη δέντρων και καλλιεργειών, αυξάνουν τις προσβολές από επιβλαβείς οργανισμούς και τροφοδοτούν τις δασικές πυρκαγιές.</p>
+
+          <p><strong>Διαθεσιμότητα γλυκού νερού.</strong> Καθώς το κλίμα γίνεται πιο θερμό, τα χαρακτηριστικά των βροχοπτώσεων μεταβάλλονται, η εξάτμιση των υδάτων αυξάνεται, οι παγετώνες λιώνουν και η στάθμη της θάλασσας ανεβαίνει. Όλοι αυτοί οι παράγοντες επηρεάζουν τη διαθεσιμότητα γλυκού νερού. Οι συχνότερες και εντονότερες ξηρασίες και η άνοδος της θερμοκρασίας των υδάτων αναμένεται να προκαλέσουν μείωση της ποιότητας των υδάτων. Οι συνθήκες αυτές ενθαρρύνουν την ανάπτυξη τοξικών φυκών και βακτηρίων, η οποία θα επιδεινώσει το πρόβλημα της λειψυδρίας που οφείλεται σε μεγάλο βαθμό στην ανθρώπινη δραστηριότητα.</p>
+
+          <p>Η αύξηση των νεροποντών (αιφνίδιες ακραίες βροχοπτώσεις) είναι επίσης πιθανό να επηρεάσει την ποιότητα και την ποσότητα του διαθέσιμου γλυκού νερού, καθώς τα όμβρια ύδατα μπορούν να προκαλέσουν την είσοδο ακαθάριστων λυμάτων στα επιφανειακά ύδατα. Οι αλλαγές στη δυναμική του χιονιού και των παγετώνων, καθώς και στα χαρακτηριστικά των βροχοπτώσεων, ενδέχεται να οδηγήσουν σε λειψυδρία.</p>
+
+          <p>Η άνοδος της στάθμης της θάλασσας προβλέπεται να μειώσει την ποσότητα των διαθέσιμων γλυκών υδάτων, καθώς το νερό της θάλασσας διεισδύει περαιτέρω σε υπόγειους υδροφόρους ορίζοντες. Αυτό είναι επίσης πιθανό να οδηγήσει σε πολύ μεγαλύτερη διείσδυση αλμυρών υδάτων σε συστήματα γλυκών υδάτων.</p> 
+
+          <p><strong>Αλλαγές στη μετανάστευση και τις αναπαραγωγικές συνήθειες.</strong> Τα πουλιά, τα ψάρια και τα θηλαστικά μεταναστεύουν νωρίτερα ή σε διαφορετικές τοποθεσίες, προκαλώντας ανισορροπίες στη διαθεσιμότητα τροφής. Οι υψηλότερες θερμοκρασίες επηρεάζουν τα ποσοστά αναπαραγωγής και τον κύκλο ζωής των ειδών, οδηγώντας σε μείωση των πληθυσμών.</p>
+
+          <p><strong>Εξάπλωση χωροκατακτητικών ειδών και ασθενειών.</strong> Οι θερμότερες συνθήκες επιτρέπουν σε παράσιτα και εισβολικά είδη να ευδοκιμήσουν, εκτοπίζοντας τα γηγενή είδη. Έντομα που μεταφέρουν ασθένειες, όπως τα κουνούπια, εξαπλώνονται σε νέες περιοχές, απειλώντας τόσο την άγρια ζωή όσο και τον άνθρωπο.</p>
+
+          <p><strong>Διαταραχές στις υπηρεσίες που προσφέρουν τα οικοσυστήματα.</strong> Τα δάση και οι υγρότοποι, που συμβάλλουν στη ρύθμιση του κλίματος και στον καθαρισμό του νερού, υφίστανται ζημιές. Οι επικονιαστές, όπως οι μέλισσες και οι πεταλούδες, μειώνονται, επηρεάζοντας την αναπαραγωγή των φυτών και τη γεωργία.</p>
+
+          <p><strong>Τήξη των πάγων & άνοδος της στάθμης της θάλασσας.</strong> Η απώλεια των πάγων στην Αρκτική και την Ανταρκτική επηρεάζει είδη όπως οι πιγκουίνοι και οι πολικές αρκούδες. Η άνοδος της στάθμης της θάλασσας απειλεί παράκτια οικοσυστήματα, όπως οι μαγκρόβιες και οι αλμυροί βάλτοι.</p>
+
+          <p>Συνολικά, η κλιματική αλλαγή αναδιαμορφώνει τα οικοσυστήματα, θέτει σε κίνδυνο είδη και μειώνει την ικανότητα του πλανήτη να υποστηρίξει τη ζωή όπως τη γνωρίζουμε. Για την αντιμετώπιση αυτών των επιπτώσεων απαιτούνται άμεσες προσπάθειες διατήρησης και μείωσης των εκπομπών.</p>
+
+          <hr>
+
+          <p>Συνολικά, η κλιματική αλλαγή αναδιαμορφώνει τα οικοσυστήματα, θέτει σε κίνδυνο είδη και μειώνει την ικανότητα του πλανήτη να υποστηρίξει τη ζωή όπως τη γνωρίζουμε. Για την αντιμετώπιση αυτών των επιπτώσεων απαιτούνται άμεσες προσπάθειες διατήρησης και μείωσης των εκπομπών διοξειδίου του άνθρακα.</p>
+        </details>
+
+        <details>
+          <summary>Ποιες είναι οι κοινωνικές συνέπειες;</summary>
+          <p><strong>Υγεία.</strong> Η κλιματική αλλαγή αποτελεί σημαντική απειλή όχι μόνο για την ανθρώπινη υγεία αλλά και για την υγεία των ζώων και των φυτών. Παρότι η αλλαγή του κλίματος δεν θα δημιουργήσει ενδεχομένως πολλές νέες ή άγνωστες απειλές για την υγεία, οι υφιστάμενες επιπτώσεις θα επιδεινωθούν και θα είναι πιο έντονες απ' ό,τι είναι σήμερα.</p>
+
+          <p>Σύμφωνα με τις προβλέψεις, οι σημαντικότερες επιπτώσεις για την υγεία από τη μελλοντική κλιματική αλλαγή θα είναι:</p>
+          <ul>
+              <li>Αύξηση της θνησιμότητας (θάνατοι) και της νοσηρότητας (ασθένειες) που συνδέονται με τον καύσωνα το καλοκαίρι.</li>
+              <li>Αύξηση της θνησιμότητας (θάνατοι) και νοσηρότητας (ασθένειες) που συνδέονται με το ψύχος τον χειμώνα.</li>
+              <li>Αύξηση του κινδύνου ατυχημάτων και των επιπτώσεων στη γενικότερη ευημερία από ακραία καιρικά φαινόμενα (πλημμύρες, πυρκαγιές και καταιγίδες).</li>
+              <li>Αρνητικές αλλαγές στον αντίκτυπο που έχουν διάφορα μεταδιδόμενα, υδατογενή ή τροφιμογενή νοσήματα.</li>
+              <li>Αλλαγές στην εποχική κατανομή ορισμένων αλλεργιογόνων ειδών γύρης, στο εύρος των ιών, στην κατανομή επιβλαβών οργανισμών και ασθενειών.</li>
+              <li>Αναδυόμενες και επανεμφανιζόμενες ασθένειες των ζώων που αυξάνουν τις προκλήσεις για την υγεία των ζώων και του ανθρώπου στην Ευρώπη, λόγω των ιογενών ζωονόσων και των νόσων που μεταδίδονται με διαβιβαστές (τρωκτικά, κουνούπια κ.α.).</li>
+              <li>Αναδυόμενοι και επανεμφανιζόμενοι επιβλαβείς για τα φυτά οργανισμοί (έντομα, παθογόνοι οργανισμοί και άλλοι επιβλαβείς οργανισμοί) και ασθένειες που επηρεάζουν τα δασικά συστήματα και τα συστήματα καλλιεργειών.</li>
+              <li>Κίνδυνοι σε σχέση με τη μεταβολή της ποιότητας του αέρα και του όζοντος.</li>
+          </ul>
+          
+          <p><strong>Ευάλωτος πληθυσμός.</strong> Τα άτομα που ζουν σε αστικές περιοχές χαμηλού εισοδήματος με ανεπαρκείς υποδομές και, γενικά, πληθυσμιακές ομάδες με χαμηλότερα εισοδήματα και περιουσιακά στοιχεία είναι περισσότερο εκτεθειμένα στις κλιματικές επιπτώσεις, ενώ έχουν μικρότερη ικανότητα αντιμετώπισης των επιπτώσεων αυτών.</p>
+          <p>Οι γυναίκες μπορεί να επηρεαστούν δυσανάλογα από την κλιματική αλλαγή και βρίσκονται σε μειονεκτική θέση όταν απαιτούνται δαπανηρά μέτρα προσαρμογής. Επίσης, οι άνεργοι και τα κοινωνικά περιθωριοποιημένα άτομα συγκαταλέγονται μεταξύ των πλέον ευάλωτων στους κλιματικούς κινδύνους.</p>
+          <p>Η γήρανση του πληθυσμού, ο οποίος επηρεάζεται δυσανάλογα από μειωμένη κινητικότητα ή προβλήματα υγείας, θα έχει ως αποτέλεσμα μεγαλύτερο ποσοστό του πληθυσμού να είναι ευάλωτο στις επιπτώσεις της κλιματικής αλλαγής.</p>
+          <p>Η κλιματική αλλαγή έχει ήδη αρχίσει να έχει αντίκτυπο στον πληθυσμιακό εκτοπισμό και τη μετανάστευση. Παρά το γεγονός ότι το κλίμα αποτελεί έναν μόνο από τους πολλούς παράγοντες εκτοπισμού και μετανάστευσης, πολλές χώρες που βρίσκονται στην πορεία προς τη βιώσιμη ανάπτυξη συγκαταλέγονται μεταξύ των χωρών που πλήττονται περισσότερο. Οι άνθρωποι που ζουν εκεί συχνά εξαρτώνται σε μεγάλο βαθμό από το φυσικό τους περιβάλλον και διαθέτουν τους λιγότερους πόρους για να αντιμετωπίσουν την κλιματική αλλαγή.</p>
+          
+          <p><strong>Οικονομία.</strong> Ο αντίκτυπος της αύξησης της θερμοκρασίας, των αλλαγών στα χαρακτηριστικά των βροχοπτώσεων ή της ανόδου της στάθμης της θάλασσας θα επηρεάσει (άμεσα ή έμμεσα) την παραγωγικότητα και τη βιωσιμότητα όλων των οικονομικών τομέων παγκοσμίως, με επιπτώσεις στην αγορά εργασίας.</p>
+
+          <p>Η κλιματική αλλαγή μπορεί να επηρεάσει τη διαθεσιμότητα του εργατικού δυναμικού λόγω της υποβάθμισης των συνθηκών υγείας του πληθυσμού και των πρόσθετων περιορισμών όσον αφορά την υγεία στην εργασία (υψηλότερη θερμοκρασία στην εργασία, συχνότεροι και εντονότεροι φυσικοί κίνδυνοι που εμποδίζουν τους ανθρώπους να φτάσουν στον χώρο εργασίας τους).</p>
+          <p>Επιπλέον, αρκετοί οικονομικοί τομείς είναι ιδιαίτερα ευάλωτοι λόγω της εξάρτησής τους από τις κανονικές κλιματικές συνθήκες. Ως συνέπεια της κλιματικής αλλαγής αναμένονται αλλαγές στην τομεακή παραγωγή, π.χ. στη γεωργία και τον τουρισμό.</p>
+        </details>
+
+        <details>
+          <summary>Ποιες είναι οι συνέπειες στην οικονομία;</summary>
+          <p><strong>Υποδομές και κτήρια.</strong> Οι επιπτώσεις της κλιματικής αλλαγής είναι ιδιαίτερα σημαντικές για τις υποδομές και τα κτήρια, δεδομένου του μεγάλου κύκλου ζωής τους και του υψηλού αρχικού κόστους τους, καθώς και του ουσιαστικού ρόλου που διαδραματίζουν στη λειτουργία των κοινωνιών και των οικονομιών μας.</p>
+          <p>Τα κτήρια και οι υποδομές μπορεί να είναι ευάλωτα στην κλιματική αλλαγή λόγω του σχεδιασμού τους (χαμηλή αντοχή στις καταιγίδες) ή της θέσης τους (π.χ. σε περιοχές επιρρεπείς σε πλημμύρες, κατολισθήσεις, χιονοστιβάδες). Πράγματι, μπορούν να υποστούν ζημιές ή να καταστούν ακατάλληλα για χρήση από τυχόν μεταβαλλόμενες κλιματικές συνθήκες ή ακραία καιρικά φαινόμενα</p>
+
+          <p><strong>Ενέργεια.</strong> Οι κλιματικές απειλές για το παγκόσμιο ενεργειακό σύστημα υπάρχουν ήδη και προβλέπεται να αυξηθούν. Ιδιαιτέρως, η κλιματική αλλαγή αναμένεται να μειώσει τη ζήτηση για θέρμανση στη βόρεια και βορειοδυτική Ευρώπη και να αυξήσει σημαντικά τη ζήτηση ενέργειας για ψύξη στη νότια Ευρώπη, γεγονός που ενδέχεται να επιδεινώσει περαιτέρω την κορύφωση της ζήτησης ηλεκτρικής ενέργειας το καλοκαίρι.</p>
+          <p>Οι πιο έντονοι και συχνοί καύσωνες θα μετατοπίσουν τα πρότυπα προσφοράς και ζήτησης ενέργειας, συχνά προς αντίθετες κατευθύνσεις. Περαιτέρω αυξήσεις της θερμοκρασίας και της ξηρασίας ενδέχεται να περιορίσουν τη διαθεσιμότητα νερού ψύξης για την παραγωγή θερμικής ενέργειας το καλοκαίρι (χαμηλή παροχή ενέργειας), ενώ η ζήτηση για κλιματισμό θα αυξηθεί. Επιπλέον, η αύξηση της κλίμακας και της συχνότητας των ακραίων καιρικών φαινομένων θα δημιουργήσει απειλές για τις υλικές ενεργειακές υποδομές: εναέρια μεταφορά και διανομή, αλλά και υποσταθμοί ή μετασχηματιστές.</p>
+          <p>Η κλιματική αλλαγή δημιουργεί επίσης αυξημένη αβεβαιότητα όσον αφορά τις καιρικές συνθήκες. Αυτό έχει άμεσο αρνητικό αντίκτυπο μακροπρόθεσμα στην παραγωγή ενέργειας από ανανεώσιμες πηγές. Κάποια άμεσα παραδείγματα είναι η μείωση της ηλιοφάνειας ή του ανέμου σε περιοχές στις οποίες συνήθως έχει περισσότερο ήλιο ή αέρα, ή καύσωνας και ξηρασίες που επηρεάζουν τις καλλιέργειες που προορίζονται για την παραγωγή ενέργειας από βιομάζα.</p>
+
+          <p><strong>Γεωργία.</strong> Η κλιματική αλλαγή έχει ήδη και θα συνεχίσει να έχει σημαντικό αρνητικό αντίκτυπο στη γεωργία σε όλη τη διάρκεια του 21ου αιώνα, λόγω της αύξησης της θερμότητας, της ξηρασίας, των πλημμυρών, των επιβλαβών οργανισμών, των ασθενειών και της φθίνουσας υγείας των εδαφών. Ενδεικτικά αναφέρονται οι σημαντικές απώλειες στη γεωργική παραγωγή (μικρότερες σοδειές) και η μείωση των κατάλληλων εκτάσεων για καλλιέργεια.</p>
+          <p><strong>Ασφάλιση.</strong> Η συχνότητα και η ένταση των περισσότερων ειδών ακραίων φαινομένων αναμένεται να μεταβληθούν σημαντικά ως αποτέλεσμα της κλιματικής αλλαγής. Βραχυπρόθεσμα, εφόσον ληφθεί δεόντως υπόψη η υποκείμενη τάση, τα ασφάλιστρα θα αυξηθούν σταδιακά και η ασφαλιστική αγορά θα απορροφήσει αυτές τις αλλαγές χωρίς διαταραχή. Ωστόσο, οι γνώσεις σχετικά με τους κινδύνους συχνά αυξάνονται με άλματα, στοιχείο που μπορεί να οδηγήσει σε άλματα στην τιμή σε σύντομο χρονικό διάστημα. Μακροπρόθεσμα, ιδίως στους πλέον ευάλωτους τομείς ή στις πλέον ευάλωτες περιοχές, η κλιματική αλλαγή ενδέχεται να αυξήσει έμμεσα τις κοινωνικές ανισότητες, καθώς τα ασφάλιστρα θα γίνουν οικονομικά απρόσιτα για ένα μέρος του πληθυσμού.</p>
+
+          <p><strong>Τουρισμός.</strong> Οι οικονομικές συνέπειες της κλιματικής αλλαγής μπορεί να είναι μεγάλες για τις περιφέρειες στις οποίες ο τουρισμός είναι σημαντικός. Η καταλληλότητα των θερινών τουριστικών προορισμών προβλέπεται να μειωθεί σημαντικά κατά τους βασικούς θερινούς μήνες, αλλά να βελτιωθεί σε άλλες εποχές. Οι προβλεπόμενες μειώσεις της χιονοκάλυψης θα επηρεάσουν αρνητικά τη βιομηχανία του χειμερινού τουρισμού σε πολλές περιοχές.</p>
+
+          <p><strong>Επιχειρήσεις.</strong> Η κλιματική αλλαγή απειλεί όλες τις επιχειρήσεις, ωστόσο ορισμένες είναι πιο ευάλωτες από άλλες. Οι επιπτώσεις αναμένεται να πλήξουν δυσανάλογα τις μικρομεσαίες επιχειρήσεις, μεταξύ άλλων προκαλώντας διακοπή επιχειρηματικών δραστηριοτήτων, ζημιές σε περιουσιακά στοιχεία, διατάραξη των αλυσίδων εφοδιασμού και των υποδομών, με αποτέλεσμα την αύξηση του κόστους συντήρησης και του κόστους των υλικών και την άνοδο των τιμών. Ωστόσο, η δράση για το κλίμα προσφέρει ευρύ φάσμα νέων ευκαιριών στις επιχειρήσεις για την ανάπτυξη προϊόντων και υπηρεσιών που θα συμβάλουν τόσο στη μείωση των εκπομπών όσο και στην προσαρμογή σε έναν κόσμο που υπερθερμαίνεται.</p>
+        </details>
+
+        <details>
+          <summary>Πώς επηρεάζει η κλιματική αλλαγή την υγεία των ανθρώπων;</summary>
+          <p>Η κλιματική αλλαγή αποτελεί απειλή για την υγεία και την ευημερία των ανθρώπων. Μεταξύ των επιπτώσεων που αναφέρονται είναι:
+            <ul>
+              <li>Η ατμοσφαιρική θέρμανση μπορεί να αυξήσει το επίπεδο του όζοντος κοντά στο έδαφος σε πολλές περιοχές, προκαλώντας προβλήματα υγείας (π.χ. βρογχίτιδα, εμφύσημα και άσθμα) και επιδεινώνοντας τη λειτουργία των πνευμόνων.</li>
+              <li>Οι υψηλότερες καλοκαιρινές θερμοκρασίες συνδέονται με αυξημένο κίνδυνο ασθενειών και θανάτων λόγω θερμότητας. Οι ηλικιωμένοι, οι έγκυες γυναίκες και τα παιδιά διατρέχουν ιδιαίτερο κίνδυνο, όπως και οι άνθρωποι που ζουν σε αστικές περιοχές λόγω της πρόσθετης θερμότητας που σχετίζεται με τον αστικό ιστό.</li>
+              <li>Η κλιματική αλλαγή αναμένεται να επεκτείνει την εμβέλεια και τη δραστηριότητα των κροτώνων που μεταφέρουν τη νόσο του Lyme και άλλους βακτηριακούς και ιϊκούς παράγοντες, καθώς και των κουνουπιών που μεταδίδουν τον ιό του Δυτικού Νείλου και άλλους ιούς, αυξάνοντας την έκθεση περισσότερων ανθρώπων.</li>
+              <li>Τα συχνότερα ακραία καιρικά φαινόμενα, όπως ξηρασίες, τυφώνες, πλημμύρες και πυρκαγιές, θα θέσουν σε κίνδυνο τις ζωές των ανθρώπων και θα επιδεινώσουν υποκείμενες ιατρικές καταστάσεις, θα αυξήσουν το στρες και θα οδηγήσουν σε αρνητικές επιπτώσεις στην ψυχική υγεία.</li>
+              <li>Οι αυξανόμενες θερμοκρασίες και τα ακραία καιρικά φαινόμενα μπορεί να διαταράξουν τη διαθεσιμότητα, την ασφάλεια και τη θρεπτική ποιότητα των τροφίμων.</li>
+            </ul>
+          </p>      
+        </details>      
+
+        <details>
+            <summary>Ποιοι κινδυνεύουν περισσότερο από τις επιπτώσεις της κλιματικής αλλαγής;</summary>
+            <p>Όλοι θα επηρεαστούν από την κλιματική αλλαγή, αλλά ορισμένοι άνθρωποι μπορεί να επηρεαστούν περισσότερο από άλλους. Μεταξύ των πιο ευάλωτων είναι οι κοινότητες που είναι ήδη επιβαρυμένες, ανεπαρκώς εξυπηρετούμενες και σε οικονομική δυσχέρεια. Τρεις βασικοί παράγοντες επηρεάζουν την ευπάθεια ενός ατόμου στις επιπτώσεις της κλιματικής αλλαγής:</p>
+            <p><strong>Έκθεση:</strong> κάποιοι είναι πιο ευάλωτοι απλώς επειδή εκτίθενται περισσότερο σε κλιματικούς κινδύνους εκεί που ζουν ή εργάζονται. Για παράδειγμα, όσοι ζουν σε παράκτιες περιοχές κινδυνεύουν περισσότερο από την άνοδο της στάθμης της θάλασσας, τις παράκτιες καταιγίδες και τις πλημμύρες.</p>
+            <p><strong>Ευαισθησία:</strong> κάποιοι είναι πιο ευαίσθητοι στις επιπτώσεις της κλιματικής αλλαγής, όπως τα παιδιά, οι έγκυες γυναίκες και όσοι έχουν προϋπάρχουσες ιατρικές καταστάσεις, όπως το άσθμα.</p>
+            <p><strong>Προσαρμοστικότητα:</strong> οι ηλικιωμένοι, τα άτομα με αναπηρίες, τα άτομα με χαμηλό εισόδημα και ορισμένοι ιθαγενείς μπορεί να έχουν περισσότερες δυσκολίες στην προσαρμογή τους στους κινδύνους της κλιματικής αλλαγής.</p>
+            <p>Επιπλέον, πολλοί άλλοι παράγοντες επηρεάζουν την ευπάθεια των ανθρώπων. Για παράδειγμα, οι άνθρωποι με λιγότερη πρόσβαση σε υγειονομική περίθαλψη, κατάλληλη στέγαση και οικονομικούς πόρους είναι λιγότερο πιθανό να ανακάμψουν από κλιματικές καταστροφές. Άτομα που αποκλείονται από διαδικασίες σχεδιασμού, βιώνουν φυλετικές και εθνοτικές διακρίσεις ή έχουν γλωσσικά εμπόδια είναι επίσης πιο ευάλωτα και λιγότερο ικανά να προετοιμαστούν για τους κινδύνους της κλιματικής αλλαγής.</p>
+        </details>
+      </div>
+
+      <div class="material">
+  
+        <h2>Impacts of Climate Change</h2>
+      
+        <details>
+          <summary>How serious is the problem?</summary>
+          
+          <p>The scientific community agrees that in the next 25 to 30 years, the climate is likely to warm gradually, with more extreme weather conditions. Coral reefs and other sensitive ecosystems have already started dying.</p>
+        
+          <p>In the long term, if emissions continue to rise unchecked, experts worry that climate impacts could become so severe that they may destabilize governments, cause waves of refugees, accelerate the sixth mass extinction of plants and animals in Earth's history, and melt polar ice caps, causing such a rise in sea levels that most of the world's coastal cities are expected to flood. The emissions causing these risks are happening now, raising deep ethical questions for our generation.</p>
+        </details>
+      
+        <details>
+          <summary>What are the consequences for nature?</summary>
+        
+          <p>Climate change has severe consequences for nature, disrupting ecosystems and threatening biodiversity. Here are some key impacts:</p>
+          
+          <p><strong>Habitat loss and alteration.</strong> Rising temperatures and changes in precipitation patterns are altering natural habitats. Forests, wetlands, coral reefs, and polar regions are particularly vulnerable. Species that depend on specific climate conditions may struggle to survive or be forced to migrate.</p>
+      
+          <p>Climate change is advancing so rapidly that many plant and animal species are struggling to adapt. Clear evidence shows that biodiversity is already responding to climate change and will continue to do so. Some of the direct effects include changes in phenology (the timing of life cycle events in plants and animals), species abundance and distribution, community composition, habitat structure, and ecosystem processes.</p>
+      
+          <p>Climate change also indirectly impacts biodiversity through changes in land use and resource availability. These effects can be even more damaging than direct ones due to their scale, extent, and speed. Indirect effects include habitat fragmentation and loss, overexploitation, air, water, and soil pollution, and the spread of invasive species. These changes further reduce the resilience of ecosystems to climate change and their ability to provide essential services such as climate regulation, food production, clean air, clean water, and flood or erosion control.</p>
+      
+          <p><strong>Species extinctions and Biodiversity loss.</strong> Many species are unable to adapt quickly enough to rapid climate shifts. Coral bleaching due to rising ocean temperatures threatens marine biodiversity. Polar bears, amphibians, and certain bird species are at increased risk of extinction.</p>
+          
+          <p><strong>Ocean acidification and marine life disruptions.</strong> The increased absorption of CO₂ lowers ocean pH, affecting shell-forming organisms such as corals and mollusks. Fish populations and food chains are being disrupted, impacting both marine ecosystems and the fishing industry.</p>
+      
+          <p><strong>Rising temperatures.</strong> Climate change has increased global average temperatures, leading to more frequent extreme heat events, such as heatwaves. Higher temperatures are expected to alter the geographical distribution of climate zones, affecting the abundance and range of many plant and animal species, which are already under pressure from habitat loss and pollution.</p>
+          
+          <p>Rising temperatures may also affect the behavior and life cycles of various species, leading to increased numbers of pests and invasive species as well as greater prevalence of certain human diseases. Additionally, agricultural and livestock production could decline, reducing the ability of ecosystems to provide essential resources like clean water and fresh air.</p>
+          
+          <p><strong>Droughts and wildfires.</strong> Due to climate shifts, many regions are already experiencing more frequent, intense, and prolonged droughts. This leads to water shortages caused by a combination of lower rainfall and higher evaporation rates due to rising temperatures. River and groundwater levels are decreasing, tree and crop growth is being hindered, pest infestations are increasing, and wildfires are being fueled.</p>
+          
+          <p><strong>Freshwater availability.</strong> As the climate warms, precipitation patterns change, evaporation increases, glaciers melt, and sea levels rise—all of which affect the availability of freshwater. More frequent and intense droughts and rising water temperatures are expected to degrade water quality. These conditions encourage the growth of toxic algae and bacteria, worsening water scarcity, which is largely driven by human activities.</p>
+      
+          <p>The increase in heavy rainfall (sudden extreme downpours) may also impact the quality and quantity of available freshwater. Stormwater can carry untreated sewage into surface waters, posing serious health risks. Changes in snow and glacier dynamics and precipitation patterns may lead to widespread water shortages.</p>
+      
+          <p>Sea level rise is also expected to reduce the availability of freshwater, as seawater infiltrates underground aquifers, contaminating drinking water sources. This can lead to increased salinity in freshwater systems, affecting agriculture and drinking water supplies.</p>
+      
+          <p><strong>Changes in migration and reproductive patterns.</strong> Birds, fish, and mammals are migrating earlier or to different locations, causing imbalances in food availability. Rising temperatures are altering reproductive rates and life cycles, leading to population declines.</p>
+          
+          <p><strong>Spread of invasive species and diseases.</strong> Warmer conditions allow pests and invasive species to thrive, outcompeting native species. Disease-carrying insects, such as mosquitoes, are expanding into new areas, posing threats to both wildlife and humans.</p>
+          
+              
+          <p><strong>Disruptions in ecosystem services</strong> Forests and wetlands, which play crucial roles in climate regulation and water purification, are being degraded. Pollinators such as bees and butterflies are declining, affecting plant reproduction and agriculture.</p>
+      
+          <p><strong>Ice melt and sea level rise</strong> The loss of Arctic and Antarctic ice is affecting species such as penguins and polar bears. Rising sea levels threaten coastal ecosystems, including mangroves and salt marshes.</p>
+      
+          <hr>
+            
+          <p>Overall, climate change is reshaping ecosystems, endangering species, and reducing the planet’s ability to sustain life as we know it. Addressing these impacts requires immediate conservation efforts and drastic reductions in carbon emissions.</p>
+        </details>
+      
+        <details>
+          <summary>What are the consequences for society?</summary>
+      
+          <p><strong>Health.</strong> Climate change is a major threat not only to human health but also to the health of animals and plants. While climate change may not necessarily create many new or unknown health threats, existing health impacts will worsen and become more severe than they are today.</p>
+        
+          <p>According to predictions, the most significant health impacts from future climate change will include:</p>
+      
+          <ul>
+            <li>An increase in mortality (deaths) and morbidity (illnesses) related to summer heatwaves.</li>
+            <li>An increase in mortality and morbidity related to extreme cold in winter.</li>
+            <li>A higher risk of accidents and negative impacts on overall well-being due to extreme weather events (floods, wildfires, and storms).</li>
+            <li>Negative changes in the impact of various vector-borne, waterborne, or foodborne diseases.</li>
+            <li>Shifts in the seasonal distribution of certain allergenic pollen species, the spread of viruses, and the distribution of harmful organisms and diseases.</li>
+            <li>Emerging and re-emerging animal diseases that pose new health challenges for both animals and humans in Europe, due to viral zoonotic diseases and vector-borne diseases (spread by rodents, mosquitoes, etc.).</li>
+            <li>Emerging and re-emerging harmful pests (insects, pathogens, and other organisms) and diseases that affect forest ecosystems and agricultural systems.</li>
+            <li>Risks associated with changes in air quality and ozone levels.</li>
+          </ul>
+          
+          <p><strong>Vulnerable populations.</strong> People living in low-income urban areas with inadequate infrastructure and, in general, populations with lower incomes and fewer assets are more exposed to climate impacts and have less ability to cope with them.</p>
+      
+          <p>Women may be disproportionately affected by climate change and are at a disadvantage when costly adaptation measures are required. Additionally, unemployed individuals and socially marginalized groups are among those most vulnerable to climate risks.</p>
+              
+          <p>The aging population, which is disproportionately affected due to reduced mobility or health issues, will result in a larger percentage of the population being vulnerable to climate change impacts.</p>  
+      
+          <p>Climate change has already begun to impact population displacement and migration. Although climate is only one of many factors driving displacement and migration, many countries on the path to sustainable development are among the hardest hit. People living there often depend heavily on their natural environment and have the fewest resources to cope with climate change.</p>
+          
+          <p><strong>Economy.</strong> The impact of rising temperatures, changes in rainfall patterns, and sea level rise will (directly or indirectly) affect the productivity and viability of all economic sectors worldwide, with consequences for the labor market.</p>
+      
+          <p>Climate change may affect labor availability due to deteriorating public health conditions and additional work-related health restrictions (higher workplace temperatures, more frequent and severe natural hazards preventing people from reaching their workplaces).</p>
+              
+          <p>Furthermore, several economic sectors are particularly vulnerable due to their dependence on normal climate conditions. As a result of climate change, sectoral production changes are expected, for example, in agriculture and tourism.</p>
+        </details>
+      
+        <details>
+          <summary>What are the consequences for economy?</summary>
+        
+          <p><strong>Infrastructure and buildings.</strong> The impacts of climate change are particularly significant for infrastructure and buildings due to their long life cycles, high initial costs, and essential role in the functioning of societies and economies.</p>
+      
+          <p>Buildings and infrastructure can be vulnerable to climate change due to their design (low resistance to storms) or location (e.g., in areas prone to flooding, landslides, or avalanches). In fact, they may suffer damage or become unusable due to changing climate conditions or extreme weather events.</p>
+        
+          <p><strong>Energy.</strong> Climate threats to the global energy system already exist and are expected to increase. Specifically, climate change is expected to reduce the demand for heating in northern and northwestern Europe while significantly increasing the demand for cooling in southern Europe, which may further worsen peak electricity demand in summer.</p>
+          
+          <p>More intense and frequent heatwaves will shift energy supply and demand patterns, often in opposite directions. Further increases in temperature and drought may limit the availability of cooling water for thermal power generation in the summer (reducing energy supply), while demand for air conditioning will rise. Additionally, the increasing scale and frequency of extreme weather events will pose threats to physical energy infrastructure, including overhead transmission and distribution lines, as well as substations and transformers.</p>
+      
+          <p>Climate change also creates increased uncertainty regarding weather conditions. This has a direct negative long-term impact on renewable energy production. Some direct examples include reduced sunshine or wind in areas that typically have more sun or wind, as well as heatwaves and droughts affecting crops intended for bioenergy production.</p>
+          
+          <p><strong>Agriculture.</strong> Climate change has already had and will continue to have significant negative impacts on agriculture throughout the 21st century due to rising temperatures, drought, floods, pests, diseases, and declining soil health. Significant losses in agricultural production (smaller harvests) and a reduction in suitable land for cultivation are expected.</p>
+          
+          <p><strong>Insurance.</strong> The frequency and intensity of most types of extreme weather events are expected to change significantly as a result of climate change. In the short term, if the underlying trend is properly accounted for, insurance premiums will gradually increase, and the insurance market will absorb these changes without disruption. However, knowledge about risks often increases in sudden leaps, which can lead to sharp price hikes in a short period. In the long term, especially in the most vulnerable sectors or regions, climate change may indirectly increase social inequalities, as insurance premiums may become unaffordable for part of the population.</p>
+          
+          
+          <p><strong>Tourism.</strong> The economic consequences of climate change could be significant for regions where tourism plays a major role. The attractiveness of summer tourist destinations is expected to decline significantly during peak summer months but may improve in other seasons. The projected reduction in snow cover will negatively impact the winter tourism industry in many areas.</p>
+          
+           
+          <p><strong>Businesses.</strong> Climate change threatens all businesses, but some are more vulnerable than others. The impacts are expected to disproportionately affect small and medium-sized enterprises, causing disruptions in business operations, damage to assets, supply chain interruptions, and increased maintenance and material costs, leading to rising prices. However, climate action also offers businesses a wide range of new opportunities to develop products and services that help reduce emissions and adapt to a warming world.</p>
+        </details>
+      
+        <details>
+          <summary>How climate change affects health?</summary>
+        
+          <p>Climate change poses a threat to human health and well-being. Some of its key impacts include:</p>
+          
+          <ul>
+            <li>Rising atmospheric temperatures can increase ground-level ozone levels in many areas, leading to health problems such as bronchitis, emphysema, and asthma, as well as worsening lung function.</li>
+            <li>Higher summer temperatures are associated with an increased risk of heat-related illnesses and deaths. Elderly individuals, pregnant women, and children are particularly vulnerable, as are people living in urban areas due to the additional heat retained by buildings and paved surfaces (urban heat island effect).</li>
+            <li>Climate change is expected to expand the range and activity of ticks that carry Lyme disease and other bacterial and viral pathogens, as well as mosquitoes that transmit the West Nile virus and other diseases, exposing more people to these health risks.</li>
+            <li>More frequent and intense weather events, such as droughts, hurricanes, floods, and wildfires, will endanger lives, exacerbate underlying medical conditions, increase stress, and lead to negative impacts on mental health.</li>
+            <li>Rising temperatures and extreme weather events can disrupt food availability, safety, and nutritional quality, leading to malnutrition and food shortages.</li>
+          </ul>
+        </details>
+      
+        <details>
+          <summary>Who is most at risk from the effects of climate change?</summary>
+        
+          <p>Everyone will be affected by climate change, but some people are more vulnerable than others. Among the most at-risk populations are communities that are already burdened, underserved, and in economic distress. Three key factors influence an individual’s vulnerability to climate change:</p>
+      
+          <p><strong>Exposure:</strong> Some people are more vulnerable simply because they are more exposed to climate risks based on where they live or work. For example, those living in coastal areas face higher risks from sea level rise, coastal storms, and flooding.</p>
+      
+          <p><strong>Sensitivity:</strong> Some people are more sensitive to climate change impacts, such as children, pregnant women, and individuals with preexisting medical conditions like asthma.</p>
+      
+          <p><strong>Adaptive capacity:</strong> Elderly individuals, people with disabilities, low-income populations, and certain indigenous groups may have more difficulty adapting to climate risks due to limited access to resources and support systems.</p>
+       
+          <p>Additionally, many other factors affect people’s vulnerability. For example, those with less access to healthcare, adequate housing, and financial resources are less likely to recover from climate disasters. People who are excluded from planning processes, experience racial or ethnic discrimination, or face language barriers are also more vulnerable and less able to prepare for climate risks.</p>
+        </details>
+      </div>
+
+    </section>
+
+    <section id="solutions">
+      <div class="material displayed">
+        <h2>Λύσεις στο Πρόβλημα της Κλιματικής Αλλαγής</h2>
+
+        <details>
+          <summary>Υπάρχουν πραγματοποιήσιμες λύσεις στο πρόβλημα;</summary>
+          <p>Ναι, αλλά η εφαρμογή τους προχωρά πολύ αργά. Σύμφωνα με την επιστημονική συναίνεση, η κοινωνία ανέβαλε τη δράση της για τόσο πολύ καιρό, ώστε οι κίνδυνοι να είναι τώρα σοβαροί. Αλλά όσο υπάρχουν ακόμα άκαυστα ορυκτά καύσιμα στο έδαφος, δεν είναι πολύ αργά για να δράσουμε. Η υπερθέρμανση θα επιβραδυνόταν με ρυθμό που θα μπορούσε να αντιμετωπιστεί, μόνο όταν οι εκπομπές του ανθρώπου μειώνονταν στο μηδέν.</p> 
+          <p>Το βασικό στοιχείο ανάσχεσης της κλιματικής αλλαγής είναι η δραστική μείωση των εκπομπών των αερίων του θερμοκηπίου μέσα από την ανάπτυξη μιας οικονομίας χαμηλών εκπομπών που θεωρείται τεχνολογικά εφικτή και οικονομικά προσιτή. Για να επιτευχθεί η μείωση των εκπομπών θα πρέπει παράλληλα να αυξηθεί η παραγωγή ενέργειας από ανανεώσιμες πηγές ενέργειας καθώς και να βελτιωθεί σημαντικά η ενεργειακή απόδοση, να τερματιστεί, δηλαδή, η ακούσια απώλεια ενέργειας από τα κτήρια και να αυξηθεί η ενεργειακή απόδοση των συσκευών.</p> 
+          <p> Τα καλά νέα είναι ότι τώρα μειώνονται σε πολλές χώρες, ως αποτέλεσμα προγραμμάτων όπως τα πρότυπα οικονομίας καυσίμου για τα αυτοκίνητα, οι αυστηρότεροι οικοδομικοί κώδικες και τα όρια εκπομπών για τους σταθμούς ηλεκτροπαραγωγής. Οι ειδικοί, ωστόσο, λένε ότι η ενεργειακή μετάβαση πρέπει να επιταχυνθεί δραστικά για να αποφύγουμε τις χειρότερες επιπτώσεις της κλιματικής αλλαγής.</p>
+        </details>
+
+        <details>
+          <summary>Πώς μπορούν οι άνθρωποι να μειώσουν τους κινδύνους της κλιματικής αλλαγής;</summary>
+          <p>Η μείωση του κινδύνου περιλαμβάνει τόσο τον μετριασμό του φαινομένου όσο και την προσαρμογή σε αυτό.</p>
+
+          <hr>
+
+          <p><strong>Μετριασμός της κλιματικής αλλαγής:</strong> αναφέρεται στις δράσεις που περιορίζουν το μέγεθος και τον ρυθμό της μελλοντικής κλιματικής αλλαγής μέσω της μείωσης των εκπομπών αερίων του θερμοκηπίου και της προώθησης λύσεων που βασίζονται στη φύση.</p>
+          <p>Αν η αλλαγή του κλίματος δεν μπορεί να αναστραφεί, μπορούμε τουλάχιστον να μετριάσουμε τις επιπτώσεις της. Οι δράσεις μετριασμού αφορούν τη μείωση της ποσότητας εκπομπών που εκλύονται στην ατμόσφαιρα, για παράδειγμα, με την ανάπτυξη καθαρών μορφών ενέργειας και την αύξηση των δασικών περιοχών. Απαιτούνται δραστικές αλλαγές σε βασικούς τομείς, όπως οι μεταφορές, η ενέργεια, η βιομηχανία, η στέγαση, η διαχείριση των αποβλήτων και η γεωργία.</p>
+
+          <p><strong>Προσαρμογή στην κλιματική αλλαγή:</strong> σημαίνει τη λήψη μέτρων για την προετοιμασία και την προσαρμογή στις τρέχουσες και προβλεπόμενες επιπτώσεις της κλιματικής αλλαγής.</p>
+          <p>Η προσαρμογή στην κλιματική αλλαγή απαιτεί την προετοιμασία για τις επιπτώσεις της και την ενίσχυση της ανθεκτικότητας της κοινωνίας μας. Αυτό μπορεί να σημαίνει, για παράδειγμα, την αποδοτικότερη χρήση των περιορισμένων υδάτινων πόρων, την προσαρμογή των γεωργικών και δασοκομικών πρακτικών και τη διασφάλιση ότι τα κτήρια και οι υποδομές είναι σε θέση να αντέξουν μελλοντικές κλιματικές συνθήκες και ακραία καιρικά φαινόμενα. 
+          </p>
+
+          <hr>
+          
+          <p>Οι άνθρωποι μπορούν να μειώσουν τους κινδύνους της κλιματικής αλλαγής κάνοντας επιλογές που μειώνουν τις εκπομπές αερίων του θερμοκηπίου και προετοιμάζοντας για τις αλλαγές που αναμένονται στο μέλλον. Οι αποφάσεις που λαμβάνονται σήμερα θα διαμορφώσουν τον κόσμο για δεκαετίες, ακόμη και αιώνες. Οι κοινότητες μπορούν επίσης να προετοιμαστούν για τις αλλαγές στις επόμενες δεκαετίες, εντοπίζοντας και μειώνοντας τις ευπάθειές τους και λαμβάνοντας υπόψη τους κινδύνους της κλιματικής αλλαγής στον σχεδιασμό και την ανάπτυξη. Τέτοιες δράσεις μπορούν να διασφαλίσουν ότι οι πιο ευάλωτοι πληθυσμοί, όπως τα μικρά παιδιά, οι ηλικιωμένοι και οι άνθρωποι που ζουν σε συνθήκες φτώχειας, είναι προστατευμένοι από τις απειλές για την υγεία και την ασφάλεια που προκαλεί η κλιματική αλλαγή.
+          </p>
+
+          <p>Οι επιπτώσεις της κλιματικής αλλαγής γίνονται συχνά αισθητές σε περιοχές και σε πληθυσμούς που είναι ήδη ευάλωτοι. Η αντιμετώπιση της κλιματικής αλλαγής αφορά επίσης την παροχή βοήθειας στους πλέον ευάλωτους και την επίτευξη προόδου σε άλλες παγκόσμιες προκλήσεις, όπως η καταπολέμηση της φτώχειας, της ανισότητας και της υποβάθμισης του περιβάλλοντος. Οι διεθνείς οργανισμοί, η κοινωνία των πολιτών και όλο και περισσότεροι οι νέοι πιέζουν για την ανάληψη παγκόσμιας δράσης με σκοπό την αντιμετώπιση της κλιματικής αλλαγής.</p>
+        </details>
+        
+        <details>
+          <summary>Ποια είναι τα οφέλη της άμεσης δράσης;</summary>
+          <p>Όσο περισσότερο καθυστερούν οι άνθρωποι να αναλάβουν δράση για την κλιματική αλλαγή, τόσο πιο καταστροφικές θα γίνονται οι επιπτώσεις της στον πλανήτη και την υγεία των ανθρώπων. Αν οι άνθρωποι δεν αναλάβουν δράση σύντομα, μπορεί να χρειαστούν πιο δραστικά και δαπανηρά μέτρα για να αποτραπεί η υπέρβαση των επικίνδυνων επιπέδων εκπομπών αερίων του θερμοκηπίου αργότερα.</p>
+          <p>Οι παγκόσμιες προσπάθειες για τη μείωση των εκπομπών αερίων του θερμοκηπίου θα μπορούσαν να αποτρέψουν μεγάλο αριθμό θανάτων ετησίως μέχρι το τέλος του αιώνα, καθώς και τεράστιο χρηματικό κόστος σε ζημιές που σχετίζονται με ελλείψεις νερού, πυρκαγιές, απώλειες στη γεωργία, πλημμύρες και άλλες επιπτώσεις.</p>
+          <p>Με κάθε πρόσθετη αύξηση της θερμοκρασίας, οι συνέπειες της κλιματικής αλλαγής αυξάνονται. Όσο ταχύτερα και σε μεγαλύτερη έκταση μειώνει ο κόσμος τις εκπομπές αερίων του θερμοκηπίου, τόσο περισσότερη μελλοντική θέρμανση θα αποφευχθεί, αυξάνοντας τις πιθανότητες περιορισμού ή αποφυγής βλαβερών επιπτώσεων στις σημερινές και μελλοντικές γενιές.</p>
+        </details>
+
+        <details>
+          <summary>Η καθαρή ενέργεια βοηθά ή βλάπτει την οικονομία;</summary>
+          <p>Υπάρχει μεγάλη αύξηση της απασχόλησης στις ανανεώσιμες πηγές ενέργειας. Οι πηγές ενέργειας με τις χαμηλότερες εκπομπές περιλαμβάνουν ανεμογεννήτριες, ηλιακούς συλλέκτες, υδροηλεκτρικά φράγματα και πυρηνικούς σταθμούς.  Οι μονάδες ηλεκτροπαραγωγής που καίνε φυσικό αέριο παράγουν επίσης λιγότερες εκπομπές από εκείνες που καταναλώνουν άνθρακα. Η μετατροπή σε αυτές τις καθαρότερες πηγές μπορεί να είναι κάπως πιο δαπανηρή βραχυπρόθεσμα, ωστόσο δεν καταστρέφουν το περιβάλλον και μειώνουν τα προβλήματα υγείας που σχετίζονται με τον μολυσμένο αέρα. Η επέκταση της αγοράς επίσης μειώνει το κόστος των ανανεώσιμων πηγών ενέργειας τόσο γρήγορα που μπορεί τελικά να γίνουν φθηνότερες από τη «βρώμικη» ενέργεια  και αυτό συμβαίνει ήδη σε ορισμένες περιοχές.</p>
+          <p>Η μετάβαση σε καθαρότερη ενέργεια δημιουργεί σίγουρα χαμένους, όπως οι εταιρείες άνθρακα, αλλά δημιουργεί και θέσεις εργασίας. Παραδείγματος χάριν, η βιομηχανία  ηλιακής ενέργειας στις Ηνωμένες Πολιτείες απασχολεί τώρα υπερδιπλάσιο πλήθος εργαζομένων από τη βιομηχανία εξόρυξης άνθρακας.</p>
+        </details>
+      </div>
+
+      <div class="material">
+  
+        <h2>Solutions to the Climate Change Problem</h2>
+        
+        <details>
+          <summary>Are there realistic solutions to the problem?</summary>
+      
+          <p>Yes, but their implementation is progressing too slowly. According to scientific consensus, society has delayed action for so long that the risks are now severe. However, as long as there are still unburned fossil fuels in the ground, it is not too late to act. Global warming would slow at a manageable rate only if human emissions were reduced to zero.</p>
+      
+          <p>The key to addressing climate change is a drastic reduction in greenhouse gas emissions through the development of a low-emissions economy, which is considered technologically feasible and economically viable. To achieve this reduction, energy production from renewable sources must increase significantly, and energy efficiency must be greatly improved—this includes stopping the unintentional loss of energy in buildings and enhancing the efficiency of appliances.</p>
+      
+          <p>The good news is that emissions are already decreasing in many countries due to programs such as fuel economy standards for vehicles, stricter building codes, and emission limits for power plants. However, experts say the energy transition must accelerate dramatically to avoid the worst impacts of climate change.</p>
+        </details>
+      
+        <details>
+          <summary>How can people reduce climate change risks?</summary>
+      
+          <p>Reducing risk involves both mitigation and adaptation strategies.</p>
+      
+          <hr>
+      
+          <p><strong>Mitigation of climate change:</strong> refers to actions that limit the magnitude and rate of future climate change by reducing greenhouse gas emissions and promoting nature-based solutions. </p>
+      
+          <p>If climate change cannot be reversed, its effects can at least be mitigated. Mitigation efforts focus on reducing emissions released into the atmosphere, such as expanding clean energy sources and increasing forested areas. Significant changes are needed in key sectors, including transportation, energy, industry, housing, waste management, and agriculture.</p>
+      
+          <p><strong>Adaptation to climate change:</strong> means taking measures to prepare for and adjust to the current and expected impacts of climate change</p>
+      
+          <p>Preparing for climate impacts and strengthening societal resilience is crucial. This can include more efficient use of limited water resources, adapting agricultural and forestry practices, and ensuring that buildings and infrastructure are designed to withstand future climate conditions and extreme weather events.</p>
+      
+          <hr>
+      
+          <p>People can reduce climate change risks by making choices that lower greenhouse gas emissions and preparing for anticipated changes in the future. Decisions made today will shape the world for decades, even centuries. Communities can also prepare for upcoming climate shifts by identifying and reducing vulnerabilities and considering climate risks in urban planning and development. Such actions can help ensure that the most vulnerable populations—such as young children, the elderly, and people living in poverty—are protected from climate-related threats to health and safety.</p>
+      
+          <p>Climate change impacts are often felt most acutely in regions and populations that are already vulnerable. Addressing climate change also involves supporting the most vulnerable and making progress on other global challenges, such as fighting poverty, reducing inequality, and preventing environmental degradation. International organizations, civil society, and increasingly younger generations are pushing for global action to combat climate change.</p>
+        </details>
+      
+        <details>
+          <summary>What are the benefits of immediate action?</summary>
+      
+          <p>The longer people delay action on climate change, the more devastating its effects on the planet and human health will become. If people do not act soon, more drastic and costly measures may be needed later to prevent greenhouse gas emissions from exceeding dangerous levels.</p>
+      
+          <p>Global efforts to reduce greenhouse gas emissions could prevent a large number of deaths annually by the end of the century, as well as save enormous amounts of money by avoiding damages related to water shortages, wildfires, agricultural losses, flooding, and other climate impacts.</p>
+      
+          <p>With every additional temperature increase, the consequences of climate change worsen. The faster and more extensively the world reduces greenhouse gas emissions, the more future warming will be avoided—improving the chances of limiting or preventing harmful effects for both present and future generations.</p>
+        </details>
+      
+        <details>
+          <summary>Does clean energy help or harm the economy?</summary>
+      
+          <p>There has been significant job growth in the renewable energy sector. The lowest-emission energy sources include wind turbines, solar panels, hydroelectric dams, and nuclear power plants. Power plants that burn natural gas also produce fewer emissions than those that use coal. Transitioning to these cleaner sources may be somewhat more expensive in the short term, but they do not harm the environment and reduce health problems associated with polluted air. Expanding the market for renewables also lowers their cost so rapidly that they may eventually become cheaper than "dirty" energy sources—and this is already happening in some regions.</p>
+      
+          <p>The shift to cleaner energy certainly creates economic losers, such as coal companies, but it also creates new jobs. For example, the solar power industry in the United States now employs more than twice as many workers as the coal mining industry.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="personal-actions">
+
+      <div class="material displayed">
+        <h2>Προσωπικές Ενέργειες</h2>
+
+        <details>
+            <summary>Η αλλαγή του κλίματος δείχνει να είναι ραγδαία. Τι μπορώ να κάνω προσωπικά γι' αυτό;</summary>
+            <p>Οι ειδικοί λένε ότι το πρόβλημα μπορεί να επιλυθεί μόνο με συλλογικές δράσεις μεγάλης κλίμακας. Όλα τα κράτη και τα έθνη πρέπει να αποφασίσουν να κινηθούν προς αυτή την κατεύθυνση και όσο ταχύτερα μπορούν, χρησιμοποιώντας κάθε διαθέσιμο εργαλείο. Έτσι, το πιο σημαντικό πράγμα που μπορείς να κάνεις είναι να ασκήσεις τα δικαιώματά σου ως πολίτης, μιλώντας και απαιτώντας αλλαγή.</p>
+            <p>Μπορείς επίσης να αναλάβεις άμεση προσωπική δράση για να μειώσεις το αποτύπωμα άνθρακα με απλούς τρόπους που θα σου εξοικονομήσουν χρήματα. Μπορείς να διορθώσεις τις διαρροές στη μόνωση του σπιτιού σου για να εξοικονομήσεις ενέργεια, να εγκαταστήσεις έναν έξυπνο θερμοστάτη, να χρησιμοποιείς αποδοτικότερες λυχνίες, να σβήσεις τα αχρησιμοποίητα φώτα, να οδηγήσεις λιγότερα χιλιόμετρα πηγαίνοντας με τη δημόσια συγκοινωνία, να σπαταλήσεις λιγότερα τρόφιμα και να τρως λιγότερο κρέας.</p>
+            <p>Κάνοντας ένα ή δύο λιγότερα αεροπορικά ταξίδια ανά έτος μπορείς να εξοικονομήσεις πολλές εκπομπές αερίων. Αν θέλεις να είσαι πρωτοπόρος, μπορείς να αγοράσεις ένα ηλεκτρικό ή υβριδικό αυτοκίνητο ή να τοποθετήσεις ηλιακούς συλλέκτες στην οροφή του σπιτιού σου. Εάν η χώρα σου διαθέτει μια ανταγωνιστική αγορά ηλεκτρικής ενέργειας, ίσως μπορείς να αγοράσεις 100% πράσινη ενέργεια.</p>
+            <p>Οι κορυφαίες εταιρείες αρχίζουν να χρησιμοποιούν καθαρή ενέργεια για τις δραστηριότητές τους. Μπορείς να δώσεις προσοχή στις πολιτικές των εταιριών, να υποστηρίξεις τις πρωτοπόρες εταιρείες και να ενημερώσεις τις άλλες ότι περιμένεις περισσότερα από εκείνες.</p>
+            <p>Αυτά τα προσωπικά βήματα μπορεί να είναι μικρά, ωστόσο μπορούν να σε αφυπνίσουν για το πρόβλημα. Στην πραγματικότητα, η συζήτηση αυτού του ζητήματος με τους φίλους και την οικογένειά σου είναι ένα από τα πιο σημαντικά πράγματα που μπορείς να κάνεις.</p>
+
+            <p>Ακολουθεί λεπτομερειακός κατάλογος με ενέργειες που μπορείς να κάνεις για να συμμετάσχεις στην καταπολέμηση της κλιματικής αλλαγής.</p>
+
+            <hr>
+
+            <h3>Χρήση Ενέργειας</h3>
+            
+            <p><strong>Περάστε σε ανανεώσιμες πηγές ενέργειας:</strong> εγκαταστήστε ηλιακούς συλλέκτες ή επιλέξτε ένα πρόγραμμα ανανεώσιμης ενέργειας, εάν είναι διαθέσιμο στην περιοχή σας.</p>
+            <p><strong>Χρησιμοποιήστε ενεργειακά αποδοτικές συσκευές:</strong> αντικαταστήστε τις παλιές συσκευές με μοντέλα που έχουν πιστοποίηση ENERGY STAR.</p>
+            <p><strong>Αποσυνδέστε τις συσκευές:</strong> αποσυνδέστε ηλεκτρονικές συσκευές όταν δεν τις χρησιμοποιείτε ή χρησιμοποιήστε πολύπριζα για εύκολη διακοπή παροχής ρεύματος.</p>
+            <p><strong>Αλλάξτε σε λάμπες LED:</strong> διαρκούν περισσότερο και καταναλώνουν λιγότερη ενέργεια από τις παραδοσιακές λάμπες.</p>
+            <p><strong>Μειώστε τη θέρμανση και την ψύξη:</strong> μονώστε το σπίτι σας, σφραγίστε διαρροές και χρησιμοποιήστε προγραμματιζόμενους θερμοστάτες.</p>
+            
+            <h3>Μεταφορές</h3>
+            
+            <p><strong>Οδηγείτε λιγότερο:</strong> περπατήστε, χρησιμοποιήστε ποδήλατο, κάντε συνεπιβατισμό ή χρησιμοποιήστε τα μέσα μαζικής μεταφοράς.</p>
+            <p><strong>Περάστε σε ηλεκτρικά ή υβριδικά οχήματα:</strong> παράγουν λιγότερες εκπομπές από τα παραδοσιακά βενζινοκίνητα αυτοκίνητα.</p>
+            <p><strong>Μειώστε τις μηχανοκίνητες διαδρομές:</strong> σχεδιάστε τον τρόπο ζωής σας έτσι ώστε να μειώσετε τις περιττές διαδρομές με μέσα μεταφοράς. Περπατήστε και χρησιμοποιήστε ποδήλατο περισσότερο.</p>
+            <p><strong>Μειώστε τα ταξίδια με αεροπλάνο:</strong> επιλέξτε τηλεσυναντήσεις ή ταξιδέψτε με τρένα και λεωφορεία για μικρότερες αποστάσεις.</p>
+            <p><strong>Αντισταθμίστε τις εκπομπές ταξιδιών:</strong> αγοράστε αντισταθμίσεις άνθρακα για τις πτήσεις σας.</p>
+            
+            <h3>Διατροφή και Κατανάλωση</h3>
+            
+            <p><strong>Καταναλώστε λιγότερο κρέας και γαλακτοκομικά:</strong> οι φυτικές δίαιτες έχουν μικρότερο αποτύπωμα άνθρακα.</p>
+            <p><strong>Υποστηρίξτε τη βιώσιμη γεωργία:</strong> αγοράστε βιολογικά, τοπικά και εποχιακά προϊόντα.</p>
+            <p><strong>Μειώστε τη σπατάλη τροφίμων:</strong> σχεδιάστε τα γεύματά σας, αποθηκεύστε τα τρόφιμα σωστά και κομποστοποιήστε τα υπολείμματα.</p>
+            <p><strong>Επιλέξτε επαναχρησιμοποιούμενα προϊόντα:</strong> χρησιμοποιήστε επαναγεμιζόμενα μπουκάλια, υφασμάτινες τσάντες και επαναχρησιμοποιούμενα σκεύη.</p>
+            <p><strong>Αποφύγετε τα πλαστικά μίας χρήσης:</strong> επιλέξτε προϊόντα με λιγότερη ή βιοδιασπώμενη συσκευασία.</p>
+            
+            <h3>Διαχείριση Αποβλήτων</h3>
+            
+            <p><strong>Ανακυκλώστε σωστά:</strong> ακολουθήστε τις τοπικές οδηγίες ανακύκλωσης.</p>
+            <p><strong>Κομποστοποιήστε οργανικά απορρίμματα:</strong> μειώστε τις εκπομπές μεθανίου από τους χώρους υγειονομικής ταφής.</p>
+            <p><strong>Αγοράστε μεταχειρισμένα:</strong> ψωνίστε από καταστήματα μεταχειρισμένων ή διαδικτυακές πλατφόρμες για να επαναχρησιμοποιήσετε αντικείμενα.</p>
+            <p><strong>Επιδιορθώστε αντί να αντικαταστήσετε:</strong> επεκτείνετε τη ζωή ηλεκτρονικών, ρούχων και συσκευών.</p>
+            <p><strong>Δωρίστε αντικείμενα:</strong> αποφύγετε να πετάξετε αντικείμενα, δίνοντάς τα σε φιλανθρωπικά ιδρύματα ή άτομα που τα χρειάζονται.</p>
+            
+            <h3>Εξοικονόμηση Νερού</h3>
+            
+            <p><strong>Επιδιορθώστε διαρροές:</strong> αποτρέψτε τη σπατάλη νερού επισκευάζοντας βρύσες και σωλήνες που στάζουν.</p>
+            <p><strong>Εγκαταστήστε αποδοτικές συσκευές νερού:</strong> χρησιμοποιήστε ντους και τουαλέτες χαμηλής ροής.</p>
+            <p><strong>Συλλέξτε νερό βροχής:</strong> χρησιμοποιήστε το για τον κήπο ή άλλες εξωτερικές δραστηριότητες.</p>
+            <p><strong>Αποφύγετε την υπερβολική χρήση νερού:</strong> ποτίστε τα φυτά νωρίς το πρωί ή αργά το βράδυ.</p>
+            
+            <h3>Δράση και Εκπαίδευση</h3>
+            
+            <p><strong>Μιλήστε για την κλιματική αλλαγή:</strong> μοιραστείτε πληροφορίες και εμπνεύστε άλλους να δράσουν.</p>
+            <p><strong>Υποστηρίξτε πολιτικές:</strong> υποστηρίξτε νόμους και πρωτοβουλίες φιλικές προς το περιβάλλον.</p>
+            <p><strong>Συμμετέχετε σε ομάδες δράσης για το κλίμα:</strong> συνεργαστείτε με τοπικούς ή παγκόσμιους οργανισμούς.</p>
+            <p><strong>Εκπαιδευτείτε:</strong> μείνετε ενημερωμένοι για την κλιματική επιστήμη και τις λύσεις.</p>
+            
+            <h3>Τρόπος Ζωής</h3>
+            
+            <p><strong>Μειώστε το χώρο διαβίωσης:</strong> επιλέξτε μικρότερα και ενεργειακά αποδοτικά σπίτια.</p>
+            <p><strong>Φυτέψτε δέντρα:</strong> τα δέντρα απορροφούν διοξείδιο του άνθρακα και παρέχουν δροσιά.</p>
+            <p><strong>Δημιουργήστε κήπο:</strong> καλλιεργήστε τη δική σας τροφή και μειώστε τις εκπομπές που σχετίζονται με τη μεταφορά.</p>
+            <p><strong>Υιοθετήστε τον μινιμαλισμό:</strong> εστιάστε στην αγορά και κατοχή λιγότερων πραγμάτων.</p>
+            <p><strong>Επενδύστε πράσινα:</strong> επενδύστε σε επιχειρήσεις που υποστηρίζουν βιώσιμες πρακτικές.</p>
+            
+            <h3>Τεχνολογία και Καινοτομία</h3>
+            
+            <p><strong>Εγκαταστήστε έξυπνη τεχνολογία σπιτιού:</strong> αυτοματοποιήστε την εξοικονόμηση ενέργειας με έξυπνους θερμοστάτες και φωτισμό.</p>
+            <p><strong>Υποστηρίξτε έργα ανανεώσιμης ενέργειας:</strong> συμβάλλετε σε έργα αιολικής, ηλιακής ενέργειας ή αναδάσωσης.</p>
+            <p><strong>Παρακολουθήστε το αποτύπωμα άνθρακα σας:</strong> χρησιμοποιήστε εφαρμογές για να παρακολουθήσετε και να μειώσετε τις εκπομπές σας.</p>
+              
+            <h3>Κοινοτική Δράση</h3>
+            
+            <p><strong>Οργανώστε τοπικούς καθαρισμούς:</strong> μειώστε τα απορρίμματα στην περιοχή σας.</p>
+            <p><strong>Δημιουργήστε κοινοτικούς κήπους:</strong> προωθήστε την τοπική, βιώσιμη καλλιέργεια τροφίμων.</p>
+            <p><strong>Ενθαρρύνετε τοπικά προγράμματα βιωσιμότητας:</strong> προωθήστε την ανακύκλωση, την κομποστοποίηση ή πρωτοβουλίες ανανεώσιμης ενέργειας.</p>
+          
+            <hr>
+
+            <p>Με την υιοθέτηση έστω και μερικών από αυτές τις ενέργειες, ο καθένας μας μπορεί να συμβάλλει τόσο ατομικά όσο και συλλογικά στη μάχη κατά της κλιματικής αλλαγής!</p>
+        </details>
+
+        <details>
+          <summary>Πως βοηθάω ανακυκλώνοντας;</summary>
+          
+          <p>Ακολουθεί ένας μη εξαντλητικός κάταλογος από τα οφέλη της ανακύκλωσης στην καταπολέμηση της κλιματικής αλλαγής.</p>
+
+          <h3>Μείωση των εκπομπών αερίων θερμοκηπίου</h3>
+
+          <p><strong>Λιγότερη ενέργεια για την παραγωγή προϊόντων:</strong> η παραγωγή προϊόντων από ανακυκλωμένα υλικά απαιτεί πολύ λιγότερη ενέργεια σε σχέση με τη χρήση πρώτων υλών. Για παράδειγμα, η ανακύκλωση αλουμινίου εξοικονομεί έως και <strong>95% της ενέργειας</strong> που χρειάζεται για την παραγωγή του από βωξίτη. Αυτή η εξοικονόμηση μειώνει τις εκπομπές CO₂ και άλλων αερίων θερμοκηπίου.</p>
+
+          <p><strong>Αποφυγή εκπομπών από την καύση απορριμμάτων:</strong> όταν τα μη ανακυκλώσιμα υλικά καταλήγουν να καίγονται σε μονάδες επεξεργασίας, παράγονται μεγάλες ποσότητες CO₂ και μεθανίου (CH₄). Η ανακύκλωση μειώνει την ανάγκη καύσης, συμβάλλοντας έτσι στη μείωση αυτών των εκπομπών.</p>
+
+          <p><strong>Ελαχιστοποίηση των εκπομπών από χωματερές:</strong> τα οργανικά υλικά που καταλήγουν στις χωματερές (π.χ. χαρτί, τρόφιμα) αποσυντίθενται και παράγουν μεθάνιο, ένα αέριο που είναι <strong>25 φορές πιο ισχυρό</strong> από το CO₂ στην παγίδευση θερμότητας. Η ανακύκλωση μειώνει αυτά τα απορρίμματα και, κατά συνέπεια, τις εκπομπές μεθανίου.</p>
+      
+          <h3>Διατήρηση απορροφητικών μηχανισμών άνθρακα</h3>
+
+          <p><strong>Μείωση αποψίλωσης δασών:</strong> η ανακύκλωση χαρτιού και ξύλου μειώνει την ανάγκη υλοτομίας, προστατεύοντας τα δάση, τα οποία είναι φυσικοί απορροφητές άνθρακα. Τα δάση συμβάλλουν στη δέσμευση CO₂ από την ατμόσφαιρα και στη μείωση της υπερθέρμανσης του πλανήτη.</p>
+
+          <p><strong>Προστασία οικοσυστημάτων:</strong> η μείωση της εξόρυξης πρώτων υλών (όπως μετάλλων ή πετρελαίου) μέσω της ανακύκλωσης διατηρεί οικοσυστήματα που λειτουργούν ως αποθήκες άνθρακα.</p>
+      
+          <h3>Προώθηση της κυκλικής οικονομίας</h3>
+
+          <p><strong>Μείωση της εξάρτησης από ορυκτά καύσιμα:</strong> η παραγωγή προϊόντων από ανακυκλωμένα υλικά απαιτεί λιγότερη χρήση ορυκτών καυσίμων τόσο στην επεξεργασία όσο και στη μεταφορά πρώτων υλών.</p>
+
+          <p><strong>Αυξημένη χρήση ανανεώσιμων πηγών ενέργειας:</strong> η ανακύκλωση υποστηρίζει καινοτόμες βιομηχανίες που βασίζονται περισσότερο σε ανανεώσιμες πηγές ενέργειας, μειώνοντας το συνολικό ανθρακικό αποτύπωμα./p>
+      
+          <h3>Ενίσχυση της ανθεκτικότητας στην κλιματική αλλαγή</h3>
+
+          <p><strong>Μείωση της εξόρυξης πρώτων υλών:</strong> η υπερβολική εξόρυξη φυσικών πόρων (όπως ορυκτά και πετρέλαιο) προκαλεί περιβαλλοντική υποβάθμιση και επιδεινώνει τις επιπτώσεις της κλιματικής αλλαγής. Η ανακύκλωση περιορίζει αυτήν την ανάγκη, μειώνοντας την υποβάθμιση εδαφών και υδάτινων πόρων.</p>
+
+          <p><strong>Μείωση της ενεργειακής κατανάλωσης στις πόλεις:</strong> οι πόλεις που ενσωματώνουν την ανακύκλωση ως βασικό μέρος της διαχείρισης απορριμμάτων μειώνουν την ενεργειακή κατανάλωση, συμβάλλοντας στη δημιουργία ανθεκτικότερων κοινοτήτων απέναντι στην κλιματική κρίση.</p>  
+
+          <hr>
+              
+          <p>Φυσικά, η ανακύκλωση προσφέρει και πολλά περισσότερα, όπως:</p>
+              
+          <h3>Οικονομικά οφέλη</h3>
+          
+          <p><strong>Δημιουργία θέσεων εργασίας:</strong> η βιομηχανία ανακύκλωσης δημιουργεί θέσεις εργασίας σε διάφορους τομείς, από τη συλλογή και την επεξεργασία υλικών έως την κατασκευή νέων προϊόντων.</p>
+
+          <p><strong>Μείωση του κόστους διαχείρισης αποβλήτων:</strong> οι τοπικές κοινότητες εξοικονομούν πόρους μέσω της μείωσης των απορριμμάτων που χρειάζεται να συλλεχθούν, να μεταφερθούν και να απορριφθούν.</p>
+
+          <p><strong>Ανάπτυξη της πράσινης οικονομίας:</strong> η ανακύκλωση ενισχύει τη βιώσιμη οικονομική ανάπτυξη μέσω της χρήσης καινοτόμων τεχνολογιών και διαδικασιών.</p>
+          
+
+          <h3>Κοινωνικά οφέλη</h3>
+          
+          <p><strong>Ευαισθητοποίηση και εκπαίδευση:</strong> η συμμετοχή σε προγράμματα ανακύκλωσης εκπαιδεύει τους πολίτες σχετικά με την αξία της περιβαλλοντικής προστασίας και ενισχύει την αίσθηση της κοινωνικής ευθύνης.</p>
+
+          <p><strong>Καλύτερη ποιότητα ζωής:</strong> οι καθαρές και βιώσιμες κοινότητες συμβάλλουν στη βελτίωση της υγείας και της ποιότητας ζωής των κατοίκων.</p>
+
+          <p><strong>Προώθηση της υπεύθυνης κατανάλωσης:</strong> η ανακύκλωση ενθαρρύνει την υιοθέτηση συνειδητών επιλογών κατανάλωσης και τη μείωση της σπατάλης.</p>
+          
+          <h3>Τεχνολογικά και παραγωγικά οφέλη</h3>
+          
+          <p><strong>Καινοτομία στην επεξεργασία υλικών:</strong> η ανακύκλωση οδηγεί στην ανάπτυξη νέων τεχνολογιών για την καλύτερη αξιοποίηση των αποβλήτων.</p>
+
+          <p><strong>Βελτίωση προϊόντων:</strong> μέσω της επαναχρησιμοποίησης υλικών, οι κατασκευαστές μπορούν να δημιουργούν προϊόντα νέας τεχνολογίας με μικρότερο περιβαλλοντικό αποτύπωμα.</p>
+        </details>    
+
+        <details>
+          <summary>Πώς βοηθάω μειώνοντας την αλόγιστη κατανάλωση αγαθών;</summary>
+
+          <p>Η μείωση της υπερκατανάλωσης μπορεί να συμβάλει σημαντικά στην καταπολέμηση της κλιματικής αλλαγής, αντιμετωπίζοντας τις βασικές αιτίες των εκπομπών αερίων του θερμοκηπίου και της περιβαλλοντικής υποβάθμισης. Εδώ είναι μερικοί βασικοί τρόποι που μπορεί να βοηθήσει:</p>
+
+          <h3>Μείωση της εξόρυξης πόρων και της ενεργειακής χρήσης</h3>
+
+          <p><strong>Μείωση εκπομπών άνθρακα:</strong> η υπερκατανάλωση οδηγεί στην εξόρυξη, παραγωγή και μεταφορά αγαθών, διαδικασίες που απαιτούν πολλή ενέργεια και εκπέμπουν αέρια του θερμοκηπίου. Η μείωση της κατανάλωσης μειώνει τη ζήτηση για αυτές τις δραστηριότητες.</p>
+
+          <p><strong>Διατήρηση φυσικών πόρων:</strong> η υπερκατανάλωση εξαντλεί περιορισμένους πόρους όπως ορυκτά καύσιμα, νερό και μέταλλα. Η μείωσή της μπορεί να βοηθήσει στη διατήρηση αυτών των πόρων και να μειώσει την ενέργεια που απαιτείται για την εξαγωγή τους.</p>
+
+          <h3>Μείωση αποβλήτων και ρύπανσης</h3>
+      
+          <p><strong>Λιγότερες εκπομπές μεθανίου από χωματερές:</strong> η υπερκατανάλωση οδηγεί σε αυξημένα επίπεδα αποβλήτων, πολλά από τα οποία καταλήγουν σε χωματερές όπου αποσυντίθενται και παράγουν μεθάνιο, ένα ισχυρό αέριο του θερμοκηπίου. Η μείωση των αποβλήτων μπορεί να μετριάσει αυτό το φαινόμενο.</p>
+
+          <p><strong>Λιγότερη ρύπανση από πλαστικά και χημικά:</strong> η παραγωγή και η απόρριψη υπερβολικών προϊόντων απελευθερώνουν ρύπους στο περιβάλλον. Η μείωση της κατανάλωσης μειώνει την παραγωγή αυτών των επιβλαβών υποπροϊόντων.</p>
+
+          <h3>Προώθηση βιώσιμων πρακτικών παραγωγής</h3>
+
+          <p><strong>Ζήτηση για οικολογικά προϊόντα:</strong> όταν οι καταναλωτές προτιμούν την ποιότητα αντί για την ποσότητα, ενθαρρύνονται οι εταιρείες να υιοθετήσουν πιο βιώσιμες πρακτικές, όπως η χρήση ανανεώσιμης ενέργειας και φιλικών προς το περιβάλλον υλικών.</p>
+
+          <p><strong>Μείωση πίεσης στις αλυσίδες εφοδιασμού:</strong> η χαμηλότερη ζήτηση επιτρέπει πιο αργούς και λιγότερο εντατικούς πόρους κύκλους παραγωγής.</p>
+
+          <h3>Διατήρηση οικοσυστημάτων και βιοποικιλότητας</h3>
+
+          <p><strong>Μείωση της αποψίλωσης:</strong> η υπερκατανάλωση, ειδικά προϊόντων όπως το χαρτί, το φοινικέλαιο και το βόειο κρέας, οδηγεί σε αποψίλωση των δασών, που συμβάλλει στις εκπομπές άνθρακα και την απώλεια βιοποικιλότητας.</p>
+
+          <p><strong>Προστασία των θαλάσσιων οικοσυστημάτων:</strong> η μειωμένη ζήτηση για υπεραλιευμένα θαλασσινά και πλαστικά μίας χρήσης μπορεί να βοηθήσει στη διατήρηση των θαλάσσιων οικοσυστημάτων.</p>
+      
+          <h3>Προώθηση αλλαγών στη συμπεριφορά και το σύστημα</h3>
+
+          <p><strong>Ενίσχυση του μινιμαλισμού:</strong> η μείωση της υπερκατανάλωσης προωθεί μια στροφή προς την εκτίμηση των εμπειριών, της κοινότητας και της βιωσιμότητας αντί των υλικών αγαθών, καλλιεργώντας μια κουλτούρα που δίνει προτεραιότητα στο περιβάλλον.</p>
+
+          <p><strong>Μείωση ενεργειακής ζήτησης:</strong> η μείωση της κατανάλωσης μπορεί να οδηγήσει σε μικρότερη χρήση ενέργειας σε ατομικό επίπεδο, που σε μεγαλύτερη κλίμακα μειώνει τη συνολική ανάγκη για ενέργεια από ορυκτά καύσιμα.</p>
+
+          <h3>Μετριασμός της κλιματικής ανισότητας</h3>
+
+          <p><strong>Αντιμετώπιση παγκόσμιων ανισοτήτων:</strong> η υπερκατανάλωση στις πλουσιότερες περιοχές συμβάλλει δυσανάλογα στην κλιματική αλλαγή, ενώ οι φτωχότερες περιοχές επωμίζονται τις επιπτώσεις της. Η μείωση της κατανάλωσης στις χώρες με υψηλές εκπομπές μπορεί να βοηθήσει στην εξισορρόπηση της παγκόσμιας χρήσης πόρων και στον μετριασμό των κλιματικών ανισοτήτων.</p>
+
+          <p>Με τη μείωση της υπερκατανάλωσης, άτομα, επιχειρήσεις και κυβερνήσεις μπορούν να μειώσουν το οικολογικό τους αποτύπωμα, να διατηρήσουν πόρους και να προωθήσουν ένα πιο βιώσιμο μέλλον—όλα αυτά είναι κρίσιμα για την αντιμετώπιση της κλιματικής κρίσης.</p>
+
+        </details>
+      </div>
+
+      <div class="material">
+
+        <h2>Personal Actions</h2>
+      
+        <details>
+          <summary>Climate change seems overwhelming. What can I do personally?</summary>
+      
+          <p>Experts say the problem can only be solved through large-scale collective action. All countries and nations must decide to move in this direction as quickly as possible, using every available tool. Therefore, the most important thing you can do is exercise your rights as a citizen by speaking up and demanding change.</p>
+      
+          <p>You can also take immediate personal action to reduce your carbon footprint in simple ways that will save you money. For example, you can improve home insulation to save energy, install a smart thermostat, use energy-efficient lighting, turn off unused lights, drive fewer kilometers by using public transportation, waste less food and eat less meat.</p>
+      
+          <p>Taking one or two fewer flights per year can significantly reduce your emissions. If you want to be at the forefront of change, you can buy an electric or hybrid car or install solar panels on your home’s roof. If your country has a competitive electricity market, you may be able to purchase 100% green energy.</p>
+      
+          <p>Leading companies are beginning to use clean energy for their operations. You can pay attention to corporate policies, support pioneering companies, and let others know that you expect more from them.</p>
+      
+          <p>These personal steps may seem small, but they can raise awareness about the problem. In reality, discussing climate change with friends and family is one of the most important things you can do.
+      
+          In order to combat climate change, some specific actions that you can take are the the following.  
+          </p>
+      
+          <h3>Energy Use</h3>
+      
+          <p><strong>Switch to renewable energy:</strong> install solar panels or opt for a renewable energy program if available in your area.</p>
+      
+          <p><strong>Use energy-efficient appliances:</strong> replace old appliances with ENERGY STAR-certified models.</p>
+      
+          <p><strong>Unplug devices:</strong> unplug electronics when not in use or use power strips for easy shutdown.</p>
+      
+          <p><strong>Switch to LED light bulbs:</strong> they last longer and consume less energy than traditional bulbs.</p>
+      
+          <p><strong>Reduce heating and cooling consumption:</strong> insulate your home, seal leaks, and use programmable thermostats.</p>
+      
+          <h3>Transportation</h3>
+      
+          <p><strong>Drive less:</strong> walk, bike, carpool, or use public transportation.</p>
+      
+          <p><strong>Switch to electric or hybrid vehicles:</strong> they produce fewer emissions than traditional gasoline-powered cars.</p>
+      
+          <p><strong>Minimize motorized travel:</strong> organize your lifestyle to reduce unnecessary trips.</p>
+      
+          <p><strong>Reduce air travel:</strong> choose video meetings when possible or use trains and buses for shorter distances.</p>
+      
+          <p><strong>Offset travel emissions:</strong> purchase carbon offsets for flights.</p>
+      
+          <h3>Diet and Consumption</h3>
+      
+          <p><strong>Eat less meat and dairy:</strong> plant-based diets have a smaller carbon footprint.</p>
+      
+          <p><strong>Support sustainable agriculture:</strong> buy organic, local, and seasonal products.</p>
+          
+          <p><strong>Reduce food waste:</strong> plan meals, store food properly, and compost leftovers.</p>
+      
+          <p><strong>Choose reusable products:</strong> use refillable bottles, cloth bags, and reusable utensils.</p>
+      
+          <p><strong>Avoid single-use plastics:</strong> Opt for products with minimal or biodegradable packaging.</p>
+      
+          <h3>Waste Management</h3>
+      
+          <p><strong>Recycle properly:</strong> follow local recycling guidelines to ensure materials are correctly processed.</p>
+      
+          <p><strong>Compost organic waste:</strong> reduce methane emissions from landfills by composting food scraps and yard waste.</p>
+      
+          <p><strong>Buy second-hand items:</strong> shop at thrift stores or online platforms to give products a second life.</p>
+      
+          <p><strong>Repair instead of replacing:</strong> extend the lifespan of electronics, clothing, and appliances.</p>
+      
+          <p><strong>Donate items:</strong> instead of discarding items, donate them to charities or people in need.</p>
+      
+          <h3>Water Conservation</h3>
+      
+          <p><strong>Fix leaks: </strong> prevent water waste by repairing dripping faucets and pipes.</p>
+          
+          <p><strong>Install water-efficient appliances:</strong> use low-flow showers and toilets to reduce water consumption.</p>
+          
+          <p><strong>Collect rainwater:</strong> use it for gardening or other outdoor activities.</p>
+          
+          <p><strong>Avoid excessive water use:</strong> water plants early in the morning or late at night to reduce evaporation.</p>
+      
+          <h3>Action and Education</h3>
+      
+          <p><strong>Talk about climate change:</strong> share information and inspire others to take action.</p>
+          
+          <p><strong>Support policies:</strong> advocate for environmentally friendly laws and initiatives.</p>
+          
+          <p><strong>Join climate action groups:</strong> collaborate with local or global organizations working for climate solutions.</p>
+          
+          <p><strong>Stay informed:</strong> keep up with climate science and sustainability solutions.</p>
+      
+          <h3>Sustainable Lifestyle Choices</h3>
+      
+          <p><strong>Downsize your living space:</strong> choose smaller, energy-efficient homes to reduce your carbon footprint.</p>
+          
+          <p><strong>Plant trees:</strong> trees absorb carbon dioxide and help cool the environment.</p>
+      
+          <p><strong>grow your own food:</strong> Reduce emissions from food transportation by maintaining a home garden.</p>
+      
+          <p><strong>Adopt minimalism:</strong> focus on buying and owning fewer, higher-quality items.</p>
+              
+          <p><strong>Invest in sustainable funds:</strong> support investments that prioritize environmental responsibility.</p>
+      
+          <h3>Technology and Innovation</h3>
+      
+          <p><strong>Use smart home technology:</strong> </p>
+      
+          <p><strong></strong> automate energy savings with smart thermostats and lighting.</p>
+          
+          <p><strong>Support renewable energy projects:</strong> </p>
+          
+          <p><strong></strong> contribute to wind, solar, or reforestation initiatives.</p>
+          
+          <p><strong>track your carbon footprint:</strong> use apps to monitor and reduce your emissions.</p>
+      
+          <h3>Community Action</h3>
+      
+          <p><strong>Organize local cleanups:</strong> reduce waste and pollution in your community.</p>
+      
+          <p><strong>Create community gardens:</strong> encourage local, sustainable food production.</p>
+          
+          <p><strong>Promote local sustainability programs:</strong> advocate for recycling, composting, and renewable energy initiatives.</p>
+      
+          <hr>
+      
+          <p>By adopting even a few of these actions, each of us can contribute individually and collectively to the fight against climate change!</p>
+      
+        </details>
+      
+        <details>
+          <summary>How does recycling help?</summary>
+      
+          <p>Recycling provides multiple environmental and economic benefits.</p>
+      
+          <h3>Reducing greenhouse gas emissions</h3>
+        
+          <p><strong>Less energy for production:</strong> manufacturing products from recycled materials uses significantly less energy than producing them from raw materials. For example, recycling aluminum saves up to 95% of the energy required to produce it from bauxite. This energy savings reduces CO₂ emissions.</p>
+      
+          <p><strong>Avoiding emissions from waste incineration:</strong> when non-recyclable materials are burned, they release large amounts of CO₂ and methane (CH₄). Recycling reduces the need for incineration, cutting these emissions.</p>
+      
+          <p><strong>Minimizing methane emissions from landfills:</strong> organic waste in landfills decomposes and produces methane, a greenhouse gas 25 times more potent than CO₂. Recycling reduces landfill waste and, consequently, methane emissions.</p>
+          
+          <h3>Conserving carbon absorption mechanisms</h3>
+      
+          <p><strong>Reducing deforestation:</strong> recycling paper and wood decreases the need for logging, protecting forests that act as natural carbon sinks. Forests help absorb CO₂ from the atmosphere, reducing global warming.</p>
+      
+          <p><strong>Protecting ecosystems:</strong> reducing the extraction of raw materials (such as metals or petroleum) through recycling preserves ecosystems that store carbon and maintain biodiversity.</p>
+      
+          <h3>Promoting a circular economy</h3>
+      
+          <p><strong>Lower dependence on fossil fuels:</strong> producing goods from recycled materials requires less fossil fuel use in both processing and transportation.</p>
+      
+          <p><strong>Increased use of renewable energy:</strong> recycling supports innovative industries that rely more on renewable energy sources, reducing the overall carbon footprint.</p>
+      
+          <h3>Enhancing climate resilience</h3>
+      
+          <p><strong>Reducing resource extraction:</strong> excessive extraction of natural resources (such as minerals and petroleum) degrades the environment and worsens climate change impacts. Recycling limits this need, preventing soil and water degradation.</p>
+      
+          <p><strong>Lowering urban energy consumption:</strong> cities that incorporate recycling into waste management reduce overall energy use, contributing to more climate-resilient communities.</p>
+      
+          <hr>
+      
+          <p>Recycling has additional benefits such as:</p>
+      
+          <h3>Economic benefits</h3>
+      
+          <p><strong>Job creation:</strong> the recycling industry generates employment in waste collection, material processing, and manufacturing new products.</p>
+      
+          <p><strong>Lower waste management costs:</strong> communities save money by reducing the volume of waste that needs to be collected, transported, and disposed of.</p>
+      
+          <p><strong>Growth of the green economy:</strong> recycling supports sustainable economic development through innovative technologies and processes.</p>
+      
+          <h3>Social benefits</h3>
+      
+          <p><strong>Awareness and education:</strong> participation in recycling programs educates the public on environmental protection and fosters social responsibility.</p>
+      
+          <p><strong>Improved quality of life:</strong> clean, sustainable communities contribute to better health and well-being.</p>
+          
+          <p><strong>Encouraging responsible consumption:</strong> recycling promotes mindful consumption and waste reduction habits.</p>
+      
+          <h3>Technological and industrial benefits</h3>
+      
+          <p><strong>Innovation in material processing:</strong> recycling drives the development of new technologies to maximize waste utilization.</p>
+      
+          <p><strong>Improved product design:</strong> Manufacturers can create more sustainable products using recycled materials, reducing environmental impact.</p>
+        </details>
+      
+        <details>
+          <summary>How does reducing excessive consumption help?</summary>
+      
+          <p>Overconsumption significantly contributes to climate change. Reducing unnecessary consumption addresses the root causes of greenhouse gas emissions and environmental degradation. Here’s how:</p>
+      
+          <h3>Reducing resource extraction and energy use</h3>
+      
+          <p><strong>Lower carbon emissions:</strong> overconsumption drives resource extraction, production, and transportation—all of which require energy and generate emissions. Reducing consumption decreases demand for these activities.</p>
+      
+          <p><strong>Conserving natural resources:</strong> overuse depletes limited resources like fossil fuels, water, and minerals. Cutting consumption helps preserve these resources and reduces the energy needed to extract them.</p>
+      
+          <h3>Minimizing waste and pollution</h3>
+      
+          <p><strong>Less methane from landfills:</strong> overconsumption leads to excessive waste, much of which ends up in landfills and decomposes, releasing methane, a potent greenhouse gas. Reducing waste mitigates this effect.</p>
+      
+          <p><strong>Less plastic and chemical pollution:</strong> the production and disposal of excess goods release harmful pollutants into the environment. Cutting consumption reduces these negative impacts.</p>
+      
+          <h3>Promoting Sustainable Production Practices</h3>
+      
+          <p><strong>Demand for eco-friendly products:</strong> when consumers prioritize quality over quantity, businesses are encouraged to adopt more sustainable practices, such as using renewable energy and environmentally friendly materials.</p>
+      
+          <p><strong>Reducing supply chain pressure:</strong> lower consumer demand allows for slower, less resource-intensive production cycles, minimizing environmental damage.</p>
+      
+          <h3>preserving ecosystems and biodiversity</h3>
+      
+          <p><strong>Reducing deforestation:</strong> overconsumption, especially of products like paper, palm oil, and beef, drives deforestation, contributing to carbon emissions and biodiversity loss.</p>
+      
+          <p><strong>Protecting marine ecosystems:</strong> lower demand for overfished seafood and single-use plastics helps sustain marine ecosystems.</p>
+      
+          <h3>Encouraging behavioral and systemic change</h3>
+      
+          <p><strong>Embracing minimalism:</strong> reducing overconsumption fosters a shift toward valuing experiences, community, and sustainability over material goods, cultivating a culture that prioritizes environmental protection.</p>
+      
+          <p><strong>Lowering energy demand:</strong> consuming less leads to reduced individual energy use, which, on a larger scale, decreases the overall reliance on fossil fuel-based energy.</p>
+      
+          <h3>Addressing climate inequality</h3>
+      
+          <p><strong>Tackling global disparities:</strong> overconsumption in wealthier regions disproportionately drives climate change, while poorer areas suffer the consequences. Reducing consumption in high-emission countries can help balance global resource use and mitigate climate inequalities.</p>
+      
+          <p>By cutting excessive consumption, individuals, businesses, and governments can reduce their ecological footprint, conserve resources, and promote a more sustainable future.</p> 
+      
+        </details>
+      
+      </div>
+    </section>
+
+    <section id="sources">
+
+      <div class="material displayed">
+        <h2>Πηγές & Υλικό</h2>
+        <div class="section-subcontainer">
+          <h3>Ιστοσελίδες</h3>
+          
+          <h4>Ελληνική γλώσσα</h4>
+
+          <ul>
+            <li><a href="https://www.greenpeace.org/greece" target="_blank">Ελληνικό Παράρτημα της Greenpeace</a></li>
+
+            <li><a href="https://www.wwf.gr" target="_blank">Ελληνικό Παράρτημα του World Wide Fund for Nature (WWF)</a></li>
+
+            <li><a href="https://climate.ec.europa.eu/climate-change_el" target="_blank">Ευρωπαϊκή Επιτροπή - Κλιματική αλλαγή</a></li>
+
+            <li><a href="https://adaptivegreecehub.gr" target="_blank">Εθνικός κόμβος για την προσαρμογή στην κλιματική αλλαγή</a></li>
+
+            <li><a href="https://el.wikipedia.org/wiki/%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1_%CF%84%CE%B7%CF%82_%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B7%CF%82_%CF%84%CE%B7%CF%82_%CE%BA%CE%BB%CE%B9%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE%CF%82_%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE%CF%82" target="_blank">Ιστορία της επιστήμης της κλιματικής αλλαγής</a> (Wikipedia)</li>
+
+
+            <li><a href="https://el.wikipedia.org/wiki/%CE%95%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE_%CF%83%CF%85%CE%BD%CE%B1%CE%AF%CE%BD%CE%B5%CF%83%CE%B7_%CE%B3%CE%B9%CE%B1_%CF%84%CE%B7%CE%BD_%CE%BA%CE%BB%CE%B9%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE_%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE" target="_blank">Επιστημονική συναίνεση για την κλιματική αλλαγή</a> (Wikipedia)</li>
+
+
+          </ul>
+
+          <h4>Αγγλική γλώσσα</h4>
+
+          <ul>
+
+            <li><a href="https://www.greenpeace.org/global" target="_blank">Greenpeace</a></li>
+
+            <li><a href="https://www.worldwildlife.org" target="_blank">World Wide Fund for Nature (WWF)</a></li> 
+
+            <li><a href="https://climate.ec.europa.eu/climate-change_en" target="_blank">European Commision - Climate Change</a></li> 
+
+            <li><a href="https://www.epa.gov/climate-change" target="_blank">Environmental Protection Agency (EPA)</a></li>
+
+            <li><a href="https://www.ipcc.ch" target="_blank">Intergovernmental Panel on Climate Change (IPCC)</a></li>
+
+            <li><a href="https://nca2023.globalchange.gov/" target="_blank">National Climate Assessment 2023 (NCA)</a></li>
+
+            <li><a href="https://wmo.int/topics/climate" target="_blank">World Meteorological Organization (WMO) - Climate</a></li>
+
+            <li><a href="https://science.nasa.gov/climate-change" target="_blank">National Aeronautics & Space Agency (NASA) - Climate change</a></li>
+
+            <li><a href="https://www.climate.gov/" target="_blank">National Oceanic and Atmospheric Administration (NOOA) - Climate</a></li>
+
+            <li><a href="https://www.noaa.gov/education/resource-collections/climate" target="_blank">National Oceanic and Atmospheric Administration (NOOA) - Resource collection on climate</a></li>
+
+            <li><a href="https://www.unfccc.int/" target="_blank">United Nations Climate Change Conference</a></li>
+
+            <li><a href="https://www.theguardian.com/environment/climate-crisis" target="_blank">The Guardian - Climate crisis</a></li>
+
+            <li><a href="https://www.cbd.int/climate/" target="_blank">Convention on Biological Diversity - Climate Change</a></li>
+
+            <li><a href="https://www.climate.org/" target="_blank">Climate Institute</a></li>
+            
+          </ul>
+
+          <h3>Βίντεο για την Κλιματική αλλαγή</h3>
+
+          <h4>Ελληνική γλώσσα ή υπότιτλοι</h4>
+
+          <ul>
+            <li><a href="https://learning-corner.learning.europa.eu/learning-materials/climate-adaptation-strategy_el" target="_blank">Στρατηγική προσαρμογής στην κλιματική αλλαγή</a> (Ευρωπαϊκή Ένωση)</li>
+            <li><a href="https://www.youtube.com/watch?v=HimM0rQ4TmA" target="_blank">Τι είναι η Κλιματική Αλλαγή;</a> (To Sakidio)</li>
+            <li><a href="https://www.youtube.com/watch?v=VYpYw-_Avek" target="_blank">Ζω με την Κλιματική Αλλαγή</a> (VICE Greece)</li>
+            <li><a href="https://www.youtube.com/watch?v=UtgYSgJyeJo" target="_blank">Εθνικό Δίκτυο για την Κλιματική Αλλαγή–CLIMPACT</a> (Εθνικό Αστεροσκοπείο Αθηνών)</li>
+            <li><a href="https://www.youtube.com/watch?v=VPG8Ab8Keuw" target="_blank">Κλιματική αλλαγή: Το πρόβλημα, τα στοιχεία & οι πιθανές λύσεις</a> (The biologist)</li>
+            <li><a href="https://www.youtube.com/watch?v=p7YldLvolOw" target="_blank">Η Κλιματική Αλλαγή Με Απλά Λόγια</a> (diaNEOsis)</li>
+            <li><a href="https://www.youtube.com/watch?v=MCOlrMTvucc" target="_blank">Οι Επιπτώσεις Της Κλιματικής Αλλαγής Στην Ελληνική Οικονομία</a> (diaNEOsis)</li>
+            <li><a href="https://www.youtube.com/watch?v=1qS703QhBOg" target="_blank">18ο diaNEOsis Live: Οι Επιπτώσεις Της Κλιματικής Αλλαγής Στην Ελλάδα</a> (diaNEOsis)</li>
+            <li><a href="https://www.youtube.com/watch?v=xOWmI4_QLLQ" target="_blank">Κλιματική αλλαγή: οι επιπτώσεις και το αύριο</a> (Eurobank Group)</li>
+            <li><a href="https://multimedia.europarl.europa.eu/el/video/timeline-european-climate-action_N01-AFPS-210617-CLAW" target="_blank">Χρονοδιάγραμμα: Ευρωπαϊκή κλιματική δράση</a> (Ευρωπαϊκό Κοινοβούλιο)</li>
+            <li><a href="https://www.greenpeace.org/greece/issues/klima/49182/klimatiki-krisi-orykto-aerio-greenpeace/" target="_blank">Βίντεο της Greenpeace για την Κλιματική Κρίση στην Ελλάδα</a> (Greenpeace)</li>
+          </ul>
+
+          <h4>Αγγλική γλώσσα</h4>
+          <ul>
+            <li><a href="https://www.youtube.com/playlist?list=PLfRRcWLcpmM6lSuKoXLVZyEm1wT_sdcKy" target="_blank">Συλλογή βίντεο για την κλιματική δράση της Ευρωπαϊκής Ένωσης</a></li>
+
+            <li><a href="https://www.youtube.com/watch?v=G4H1N_yXBiA" target="_blank">Causes and effects of climate change</a> (National Geographic)</li>
+            
+            <li><a href="https://www.youtube.com/watch?v=SDRxfuEvqGg" target="_blank">Climate Change 2022: Impacts, Adaptation & Vulnerability</a> (IPCC)</li>
+            
+            <li><a href="https://www.ted.com/search?cat=playlists&q=climate+change" target="_blank">Playlists on climate change</a> (TED)</li>
+
+            <li><a href="https://www.youtube.com/watch?v=pEt6-jA2UE4" target="_blank">Climate change - Averting catastrophe</a> (DW Documentary)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="material">
+        <h2>Sources & Material</h2>
+        <div class="section-subcontainer">
+          <h3>Websites</h3>
+
+          <ul>
+
+            <li><a href="https://www.greenpeace.org/global" target="_blank">Greenpeace</a></li>
+
+            <li><a href="https://www.worldwildlife.org" target="_blank">World Wide Fund for Nature (WWF)</a></li> 
+
+            <li><a href="https://climate.ec.europa.eu/climate-change_en" target="_blank">European Commision - Climate Change</a></li> 
+
+            <li><a href="https://www.epa.gov/climate-change" target="_blank">Environmental Protection Agency (EPA)</a></li>
+
+            <li><a href="https://www.ipcc.ch" target="_blank">Intergovernmental Panel on Climate Change (IPCC)</a></li>
+
+            <li><a href="https://nca2023.globalchange.gov/" target="_blank">National Climate Assessment 2023 (NCA)</a></li>
+
+            <li><a href="https://wmo.int/topics/climate" target="_blank">World Meteorological Organization (WMO) - Climate</a></li>
+
+            <li><a href="https://science.nasa.gov/climate-change" target="_blank">National Aeronautics & Space Agency (NASA) - Climate change</a></li>
+
+            <li><a href="https://www.climate.gov/" target="_blank">National Oceanic and Atmospheric Administration (NOOA) - Climate</a></li>
+
+            <li><a href="https://www.noaa.gov/education/resource-collections/climate" target="_blank">National Oceanic and Atmospheric Administration (NOOA) - Resource collection on climate</a></li>
+
+            <li><a href="https://www.unfccc.int/" target="_blank">United Nations Climate Change Conference</a></li>
+
+            <li><a href="https://www.theguardian.com/environment/climate-crisis" target="_blank">The Guardian - Climate crisis</a></li>
+
+            <li><a href="https://www.cbd.int/climate/" target="_blank">Convention on Biological Diversity - Climate Change</a></li>
+
+            <li><a href="https://www.climate.org/" target="_blank">Climate Institute</a></li>
+          </ul>
+
+          <h3>Videos on climate change</h3>
+
+          <ul>
+            <li><a href="https://www.youtube.com/playlist?list=PLfRRcWLcpmM6lSuKoXLVZyEm1wT_sdcKy" target="_blank">Video collection on the climate action of the European Union</a> (European Union)</li>
+      
+            <li><a href="https://www.youtube.com/watch?v=G4H1N_yXBiA" target="_blank">Causes and effects of climate change</a> (National Geographic)</li>
+            
+            <li><a href="https://www.youtube.com/watch?v=SDRxfuEvqGg" target="_blank">Climate Change 2022: Impacts, Adaptation & Vulnerability</a> (IPCC)</li>
+
+            <li><a href="https://www.ted.com/search?cat=playlists&q=climate+change" target="_blank">Playlists on climate change</a> (TED)</li>
+            
+            <li><a href="https://www.youtube.com/watch?v=pEt6-jA2UE4" target="_blank">Climate change - Averting catastrophe</a> (DW Documentary)</li>
+          </ul>
+        </div>
+      
+      </div>
+
+    </section>
+  </main>
+
+  <div id="outer-slideshow-container">
+    <div id="slideshow-description">
+      <p><span class="material displayed">Στόχος της γκαλερί είναι η ελάχιστη υπενθύμιση της περιβάλλουσας ομορφιάς που κινδυνεύει να χαθεί λόγω της κλιματικής αλλαγής.</span>
+        <span class="material">The goal of the slideshow is to serve as a subtle reminder of the surrounding beauty that is at risk of being lost due to climate change.</span>
+      </p>
+    </div>
+    <button id="close-slideshow-btn">
+      &times;
+    </button>
+    <div class="slideshow-container">
+    </div>
+    
+    <div class="controls">
+      <button id="prev">&#10094;</button>
+      <div class="image-indicator" id="image-indicator">1 / 35</div>
+      <button id="next">&#10095;</button>
+    </div>
+    
+  </div>
+
+  <footer id="info">
+    <div>
+      <hr>
+      <p class="material displayed">Η ιστοσελίδα αυτή αναπτύχθηκε στο πλαίσιο του σχεδίου δράσης για την Αξιολόγηση της Σχολικής Μονάδας του Γυμνασίου Λ.Τ. Άρνισσας (σχολικό έτος 2024-2025), στον άξονα «Συμμετοχή εκπαιδευτικών σε επιμορφωτικές δράσεις». Το σχέδιο δράσης τιτλοφορείται «Επιμορφωνόμαστε - ενεργούμε για την κλιματική αλλαγή».</p>
+
+      <p class="material">This website was developed as part of the action plan for the School Unit Evaluation of Arnissa Gymnasium L.T. (school year 2024-2025), under the axis "Teachers' Participation in Training Activities." The action plan is titled "We Educate Ourselves – We Act for Climate Change."</p>
+
+      <hr>
+      <div class="material displayed">
+        <p>Επιμέλεια υλικού:</p>
+        <ul>
+          <li>Χρυσούλα Βούρου</li>
+          <li>Αθανασία Παναγιωτίδου</li>
+          <li>Δημοσθένης Σταλίδης</li>
+        </ul>
+      </div>
+
+      <div class="material">
+        <p>Material editing:</p>
+        <ul>
+          <li>Chrysoula Vourou</li>
+          <li>Athanasia Panagiotidou</li>
+          <li>Dimosthenis Stalidis</li>
+        </ul>
+      </div>
+
+      <hr>
+      <p class="material displayed">Ανάπτυξη ιστοσελίδας: Δημοσθένης Σταλίδης</p>
+      <p class="material">Web developing: Dimosthenis Stalidis</p>
+
+      <p style="font-size: 90%; margin-top: 1rem;">
+        <span class="material displayed">
+          (Οι φωτογραφίες έχουν αντληθεί από το <a href="https://unsplash.com/" target="_blank">unsplash.com</a> και είναι ελεύθερες δικαιωμάτων.)
+        </span>
+        
+        <span class="material">
+          (The photos have been sourced from <a href="https://unsplash.com/" target="_blank">unsplash.com</a> and are royalty-free.)
+        </span>
+      </p>
+
+      <hr>
+    </div>
+  </footer>
+
+</body>
+
+<script>
+/////// menu functionality 
+
+const menuContainer = document.getElementById("menuContainer");
+const menu = document.getElementById("menu");
+const menuButton = document.getElementById('hamburger');
+
+function toggleMenu() {
+  // menu.classList.add("menu");
+  menu.classList.add("active");
+  menuContainer.classList.remove("transparent");
+  menuButton.classList.add("hidden");
+  menu
+}
+
+window.addEventListener('click', function(e){
+  // e.stopPropagation();
+  if (!menuButton.contains(e.target) &&
+      menuButton.className == 'hamburger hidden'){
+    menu.classList.remove("active");
+    menuContainer.classList.add("transparent");
+    menuButton.classList.remove("hidden");
+  }
+});
+
+/////// info functionality 
+
+const info = document.getElementById('info');
+
+function openfullscreenInfo() {
+  info.style.display = 'flex';
+}
+
+window.addEventListener('click', function(e){
+  let w = window.innerWidth;
+  if (w>900 || window.matchMedia("(orientation: portrait)").matches) {
+    if (info.contains(e.target)){
+      info.style.display = 'none';
+    }
+  }
+});
+
+//contents
+
+function goToContent(el) {
+  let details = document.querySelectorAll('.material.displayed details');
+  let contents = document.querySelectorAll('.material.displayed .content-tag');
+  let contentArray = Array.from(contents);
+
+  let ind = contentArray.indexOf(el);
+  let target = details[ind];
+  target.open = true;
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+// on resize
+
+function resizeFunction() {
+  w = window.innerWidth;
+  if (w<900 && window.matchMedia("(orientation: landscape)").matches)  {
+  document.querySelector('#info').style.display='block';
+  } else {
+    document.querySelector('#info').style.display='none';
+  }
+}
+
+// backgrounds
+
+const backgrounds = [
+  'forest02.jpg',
+  'leaf01.jpg',
+  'leaf02.jpg',
+  'leaf04.jpg',
+  'leaf05.jpg',
+  'leaves01.jpg',
+  'maple_leaf.jpg',
+  'mushrooms01.jpg'
+]
+
+function backgroundImage() {
+  let randomIndex = Math.floor(Math.random() * backgrounds.length);
+
+  let randomBackground = backgrounds[randomIndex];
+  document.body.style.backgroundImage = `url('backgrounds/${randomBackground}')`;
+  document.body.style.transition = "background-image 1s ease";
+}
+
+backgroundImage();
+
+ //setInterval(backgroundImage, 60000);
+</script>
+
+<script>
+  // slideshow
+
+  const slides = [
+    'owl01.jpg',
+    'seagull02.jpg',
+    'deep.jpg',
+    'turtle01.jpg',
+    'leaves02.jpg',
+    'waterfalls01.jpg',
+    'turtle03.jpg',
+    'lake02.jpg',
+    'penguins04.jpg',
+    'fish02.jpg',
+    'lake03.jpg',
+    'waterfalls03.jpg',
+    'bear01.jpg',
+    'jaguar01.jpg',
+    'forest05.jpg',
+    'owl02.jpg',
+    'octopus01.jpg',
+    'wolf01.jpg',
+    'panther01.jpg',
+    'bird01.jpg',
+    'beach01.jpg',
+    'lake01.jpg',
+    'mountain01.jpg',
+    'fox02.jpg',
+    'iceberg04.jpg',
+    'big_cat01.jpg',
+    'forest01.jpg',
+    'wildlife03.jpg',
+    'fish01.jpg',
+    'glacier02.jpg',
+    'fish03.jpg',
+    'swan02.jpg',
+    'corals02.jpg',
+    'tree02.jpg',
+    'flower01.jpg',
+    'bird03.jpg',
+    'fox01.jpg',
+    'crab01.jpg',
+    'sea_lion01.jpg',
+    'owl03.jpg',
+    'iceberg02.jpg',
+    'cougar01.jpg',
+    'polar_bear02.jpg',
+    'river02.jpg',
+    'penguins02.jpg',
+    'waterfalls02.jpg',
+    'elephant01.jpg',
+    'iguanas01.jpg',
+    'tiger01.jpg',
+    'penguins03.jpg',
+    'fox03.jpg',
+    'penguins01.jpg',
+    'seal01.jpg',
+    'forest06.jpg',
+    'wildlife01.jpg',
+    'corals04.jpg',
+    'forest07.jpg',
+    'lions.jpg',
+    'leaf03.jpg',
+    'flower02.jpg',
+    'cactus01.jpg',
+    'polar_bear01.jpg',
+    'iceberg01.jpg',
+    'ladybug01.jpg',
+    'snowflake01.jpg',
+    'wildlife02.jpg',
+    'tiger02.jpg',
+    'bird02.jpg',
+    'tree01.jpg',
+    'snowflake02.jpg',
+    'corals03.jpg',
+    'iceberg03.jpg',
+    'elephants.jpg',
+    'frog01.jpg',
+    'nature01.jpg',
+    'corals01.jpg',
+    'turtle02.jpg',
+    'seagull01.jpg',
+    'lemurs.jpg',
+    'forest04.jpg',
+    'glacier01.jpg',
+    'mountain02.jpg',
+    'ocean03.jpg',
+    'deer01.jpg',
+    'ocean02.jpg',
+    'leaves04.jpg',
+    'owl04.jpg',
+    'albatross01.jpg',
+    'dolphin01.jpg',
+    'peacock01.jpg',
+    'ocean01.jpg',
+    'wolf02.jpg',
+    'eagles.jpg',
+    'chameleon01.jpg',
+    'forest08.jpg',
+    'river01.jpg',
+    'swan01.jpg',
+    'flower03.jpg',
+    'leaves03.jpg',
+    'eagle01.jpg',
+  ]
+
+  const container = document.querySelector('.slideshow-container');
+  const indicator = document.getElementById('image-indicator');
+  let currentIndex = 0;
+
+  // Create image elements
+  slides.forEach((src, index) => {
+    const img = document.createElement('img');
+    img.src = `slides/${src}`;
+    if (index === 0) img.classList.add('active');
+    container.appendChild(img);
+  });
+
+  const images = document.querySelectorAll('.slideshow-container img');
+
+  function updateIndicator() {
+    indicator.textContent = `${currentIndex + 1} / ${slides.length}`;
+  }
+
+  function showImage(index) {
+
+    images.forEach((img, i) => {
+      img.classList.toggle('active', i === index);
+    });
+    updateIndicator();
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % slides.length;
+
+ showImage(currentIndex);
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showImage(currentIndex);
+  }
+
+  // Event listeners for navigation
+  document.getElementById('next').addEventListener('click', nextImage);
+  document.getElementById('prev').addEventListener('click', prevImage);
+
+  // Advance slideshow every 5 seconds
+  //setInterval(nextImage, 5000);
+
+  // Switch to next image on image click
+  container.addEventListener('click', (e) => {
+    if (e.target.tagName === 'IMG') {
+      nextImage();
+    }
+  });
+
+  // Initialize indicator
+  updateIndicator();
+
+
+  //open button
+
+  let imageInterval = undefined;
+  let firstTimeSlideShowDescription = true;
+
+  function openfullscreenSlideshow() {
+
+    document.querySelector('#outer-slideshow-container').style.display='flex';
+    
+    if (!firstTimeSlideShowDescription) {
+      document.querySelector('#slideshow-description').style.display = 'none';
+    }
+    
+    firstTimeSlideShowDescription = false;
+    // currentIndex = 0;
+    setTimeout(function(){
+      document.querySelector('#slideshow-description').style.display = 'none';
+      imageInterval = setInterval(nextImage, 5000);
+    },10000); // This timing is the same with the animation: fadeaway timing
+
+    //imageInterval = setInterval(nextImage, 5000);
+  }
+
+  // close button 
+  document.querySelector("#close-slideshow-btn").addEventListener("click", function(){
+    document.querySelector("#outer-slideshow-container").style.display = 'none';
+    clearInterval(imageInterval);
+  });
+</script>
+
+<script>
+  // toggle language
+  const languageButton = document.getElementById('language-button');
+  const text = document.querySelectorAll('.material');
+  
+  function toggleLanguage() {
+    text.forEach(t => {
+      t.classList.toggle('displayed');
+    });
+    languageButton.classList.toggle('greek');
+  }
+
+
+
+
+
+</script>
+
+</html>
