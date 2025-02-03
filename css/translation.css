@@ -9,12 +9,12 @@
   color: none;
   background-color: none;
   cursor: pointer;
-  background-image: url('/icons/english_flag.png');
+  background-image: url('icons/english_flag.png');
   background-size: cover;
 }
 
 #language-button.greek {
-  background-image: url('/icons/greek_flag.png');
+  background-image: url('icons/greek_flag.png');
 }
 
 .material {
