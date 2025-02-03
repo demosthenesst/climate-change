@@ -1,0 +1,28 @@
+#language-button {
+  width: 1.5rem;
+  padding: 0;
+  margin: 0;
+  aspect-ratio: 1;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  color: none;
+  background-color: none;
+  cursor: pointer;
+  background-image: url('/icons/english_flag.png');
+  background-size: cover;
+}
+
+#language-button.greek {
+  background-image: url('/icons/greek_flag.png');
+}
+
+.material {
+  display: none;
+  margin:0;
+  padding: 0;
+}
+
+.material.displayed {
+  display: initial;
+}
