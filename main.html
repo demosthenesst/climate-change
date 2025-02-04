@@ -1512,7 +1512,6 @@ const menu = document.getElementById("menu");
 const menuButton = document.getElementById('hamburger');
 
 function toggleMenu() {
-  // menu.classList.add("menu");
   menu.classList.add("active");
   menuContainer.classList.remove("transparent");
   menuButton.classList.add("hidden");
@@ -1520,7 +1519,6 @@ function toggleMenu() {
 }
 
 window.addEventListener('click', function(e){
-  // e.stopPropagation();
   if (!menuButton.contains(e.target) &&
       menuButton.className == 'hamburger hidden'){
     menu.classList.remove("active");
@@ -1534,28 +1532,15 @@ window.addEventListener('click', function(e){
 const info = document.getElementById('info');
 
 function openfullscreenInfo() {
-  //info.style.display = 'flex';
   info.classList.remove("hidden");
 }
-
-// window.addEventListener('click', function(e){
-//   let w = window.innerWidth;
-//   if (w>900 || window.matchMedia("(orientation: portrait)").matches) {
-//     if (info.contains(e.target)){
-//       info.classList.add("hidden");
-//     }
-//   }
-// });
-
 
 window.addEventListener('click', function(e){
 
   if (info.contains(e.target)){
-    //info.style.display = 'none';
     info.classList.add("hidden");
   }
 });
-
 
 //contents
 
@@ -1588,7 +1573,7 @@ function backgroundImage() {
 
   let randomBackground = backgrounds[randomIndex];
   document.body.style.backgroundImage = `url('backgrounds/${randomBackground}')`;
-  document.body.style.transition = "background-image 1s ease";
+  // document.body.style.transition = "background-image 1s ease";
 }
 
 backgroundImage();
