@@ -25,7 +25,7 @@
 
 </head>
 
-<body onresize="resizeFunction()">
+<body>
   <header id="#top">
     <h1>
       <span class="material displayed">
@@ -51,11 +51,9 @@
             <li class="submenu"><a href="#contents"><i class="fa-solid fa-list fa-xl"></i></a></li>
             <li class="submenu"><a onclick="openfullscreenSlideshow()"><i class="fa-solid fa-image fa-xl"></i></a></li>
             <li class="submenu">
-              <a class="large-landscape" onclick="openfullscreenInfo()">
+              <a onclick="openfullscreenInfo()">
                 <i class="fa-solid fa-circle-info fa-xl"></i>
               </a>
-              <a href="#info" class="small-landscape">
-                <i class="fa-solid fa-circle-info fa-xl"></i>
               </a>
             </li>
             <li class="submenu"><button id="language-button" onclick="toggleLanguage()"></button></li>
@@ -1460,12 +1458,12 @@
     
   </div>
 
-  <footer id="info">
+  <footer id="info" class="hidden">
     <div>
       <hr>
       <p class="material displayed">Η ιστοσελίδα αυτή αναπτύχθηκε στο πλαίσιο του σχεδίου δράσης για την Αξιολόγηση της Σχολικής Μονάδας του Γυμνασίου Λ.Τ. Άρνισσας (σχολικό έτος 2024-2025), στον άξονα «Συμμετοχή εκπαιδευτικών σε επιμορφωτικές δράσεις». Το σχέδιο δράσης τιτλοφορείται «Επιμορφωνόμαστε - ενεργούμε για την κλιματική αλλαγή».</p>
 
-      <p class="material">This website was developed as part of the action plan for the School Unit Evaluation of Arnissa Gymnasium L.T. (school year 2024-2025), under the axis "Teachers' Participation in Training Activities." The action plan is titled "We Educate Ourselves – We Act for Climate Change."</p>
+      <p class="material">This website was developed as part of the action plan for the School Unit Evaluation of Arnissa Gymnasium - Lyceum (school year 2024-2025), under the axis "Teachers' Participation in Training Activities." The action plan is titled "We Educate Ourselves – We Act for Climate Change."</p>
 
       <hr>
       <div class="material displayed">
@@ -1536,17 +1534,28 @@ window.addEventListener('click', function(e){
 const info = document.getElementById('info');
 
 function openfullscreenInfo() {
-  info.style.display = 'flex';
+  //info.style.display = 'flex';
+  info.classList.remove("hidden");
 }
 
+// window.addEventListener('click', function(e){
+//   let w = window.innerWidth;
+//   if (w>900 || window.matchMedia("(orientation: portrait)").matches) {
+//     if (info.contains(e.target)){
+//       info.classList.add("hidden");
+//     }
+//   }
+// });
+
+
 window.addEventListener('click', function(e){
-  let w = window.innerWidth;
-  if (w>900 || window.matchMedia("(orientation: portrait)").matches) {
-    if (info.contains(e.target)){
-      info.style.display = 'none';
-    }
+
+  if (info.contains(e.target)){
+    //info.style.display = 'none';
+    info.classList.add("hidden");
   }
 });
+
 
 //contents
 
@@ -1559,17 +1568,6 @@ function goToContent(el) {
   let target = details[ind];
   target.open = true;
   target.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
-// on resize
-
-function resizeFunction() {
-  w = window.innerWidth;
-  if (w<900 && window.matchMedia("(orientation: landscape)").matches)  {
-  document.querySelector('#info').style.display='block';
-  } else {
-    document.querySelector('#info').style.display='none';
-  }
 }
 
 // backgrounds
