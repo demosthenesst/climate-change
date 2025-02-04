@@ -258,20 +258,24 @@ section ul li {
 #info {
   background: rgba(0, 0, 0, 0.97);
   color: var(--lightgreen);
-  display:none;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
   width:100%;
-  height: 100dvh;
-  justify-content: center;
-  align-items: center;
+  height: min(100dvh, 100%);
+  overflow-y: auto;
   z-index: 1;
-  font-size: clamp(0.9rem, 0.82rem + 0.32vw, 1rem);
+  font-size: clamp(0.8rem, 0.7rem + 0.5333vw, 1rem);
+}
+
+#info.hidden {
+  display: none;
 }
 
 #info>div {
-  padding: 2rem;
+  width: min(700px, 100%);
+  margin: 2rem auto;
 }
 
 #info>div a {
@@ -284,63 +288,39 @@ section ul li {
   padding-left: 1rem;
 }
 
-.small-landscape {
-  display: none;
-}
-
-.large-landscape {
-  display: initial;
-}
-
 /* media queries */
 
-@media screen {
-  
-  @media (orientation: portrait) {
+@media (orientation: portrait) {
 
-    .menu-container {
-      justify-content:flex-end;
-    }
-
-    .menu.active {
-      flex-direction: column;
-      align-items: flex-end;
-      row-gap: 1rem;
-      padding-right: 1rem;
-    }
-
-    #submenu-2 {
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 0.5rem;
-    }
+  .menu-container {
+    justify-content: flex-end;
   }
 
-  @media (orientation: landscape) {
-
-    @media (max-width: 900px) {
-      
-      section {
-        margin: 2rem 1rem;
-      }
-
-      #info {
-        display:block !important;
-        position:static;
-        width:auto;
-        height: auto;
-      }
-
-      .large-landscape {
-        display: none;
-      }
-
-      .small-landscape {
-        display: initial;
-      }
-    }
+  .menu.active {
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 1rem;
+    padding-right: 1rem;
   }
+
+  #submenu-2 {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  #info {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #info>div {
+    padding-inline: 1rem;
+    margin: auto;
+  }
+
 }
+
 
 @media (min-width: 1000px) and (orientation: landscape) {
 
@@ -355,5 +335,6 @@ section ul li {
   .menu-container.transparent {
     background-color: rgba(0, 0, 0, 0.8);
   }
-
 }
+
+
