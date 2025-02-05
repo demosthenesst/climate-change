@@ -1586,7 +1586,7 @@ const backgrounds = [
 function backgroundImage() {
   let randomIndex = Math.floor(Math.random() * backgrounds.length);
 
-  let randomBackground = backgrounds[backgrounds.length-1] //backgrounds[randomIndex];
+  let randomBackground = backgrounds[randomIndex];
   document.body.style.backgroundImage = `url('backgrounds/${randomBackground}')`;
   // document.body.style.transition = "background-image 1s ease";
 }
