@@ -1565,24 +1565,28 @@ function goToContent(el) {
 
 const backgrounds = [
   'forest02.jpg',
+  'leaf01.jpg',
+  'leaf02.jpg',
+  'leaf05.jpg',
+  'leaves01.jpg',
+  'maple_leaf.jpg',
+  'mushrooms01.jpg',
   'green_nature01.jpg',
   'green_nature02.jpg',
   'green_nature03.jpg',
   'green_nature04.jpg',
   'green_nature05.jpg',
   'green_nature06.jpg',
-  'leaf01.jpg',
-  'leaf02.jpg',
-  'leaf05.jpg',
-  'leaves01.jpg',
-  'maple_leaf.jpg',
-  'mushrooms01.jpg'
+  'green_nature07.jpg',
+  'green_nature08.jpg',
+  'green_nature09.jpg',
+  'green_nature11.jpg',
 ]
 
 function backgroundImage() {
   let randomIndex = Math.floor(Math.random() * backgrounds.length);
 
-  let randomBackground = backgrounds[randomIndex];
+  let randomBackground = backgrounds[backgrounds.length-1] //backgrounds[randomIndex];
   document.body.style.backgroundImage = `url('backgrounds/${randomBackground}')`;
   // document.body.style.transition = "background-image 1s ease";
 }
@@ -1594,7 +1598,6 @@ backgroundImage();
 
 <script>
   // slideshow
-
   const slides = [
     'owl01.jpg',
     'seagull02.jpg',
@@ -1752,14 +1755,12 @@ backgroundImage();
   // Initialize indicator
   updateIndicator();
 
-
-  //open button
+  ////////open button
 
   let imageInterval = undefined;
   let firstTimeSlideShowDescription = true;
 
   function openfullscreenSlideshow() {
-
     document.querySelector('#outer-slideshow-container').style.display='flex';
     
     if (!firstTimeSlideShowDescription) {
