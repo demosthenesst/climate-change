@@ -291,7 +291,7 @@ section ul li {
 
 /* key frames */
 
-header, #hamburger, h1, main, footer {
+header, h1, main, footer {
   animation: fadein 3s ease-in;
 }
 
