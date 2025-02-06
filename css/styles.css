@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 
 body {
@@ -295,7 +296,7 @@ section a:hover {
 
 /* key frames */
 
-header, h1, main, footer {
+header, h1, main {
   animation: fadein 3s ease-in;
 }
 
@@ -349,6 +350,8 @@ header, h1, main, footer {
   header.transparent {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+
 }
 
 
