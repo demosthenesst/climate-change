@@ -77,6 +77,7 @@ header.transparent {
 #submenu-1 {
   align-items: flex-start;
   border-bottom: 2px solid var(--lightgreen);
+  padding-bottom: 0.5rem;
 }
 
 #submenu-2 {

@@ -17,6 +17,10 @@
   background-image: url('../icons/greek_flag.png');
 }
 
+ li:has(#language-button) { /*for mozilla */
+  line-height: 0;
+}
+
 .material {
   display: none;
   margin:0;
